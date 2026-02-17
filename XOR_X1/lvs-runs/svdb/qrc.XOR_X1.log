@@ -1,0 +1,184 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+24.1.0-p089 Wed Dec 18 09:25:34 PST 2024
+---------------------------------------------------------------------------------------------------------------
+                                  Copyright 2024 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXLOG-128) : Quantus command line:
+ Started at: 2025-Oct-24 13:35:05 (2025-Oct-24 17:35:05 GMT)
+ Executable:
+/opt/cadence/quantus/install/tools.lnx86/extraction/bin/64bit/quantus
+ Options:     -log_file
+/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/qrc.XOR_X1.log
+-cmd
+/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/qrc.XOR_X1.ccl
+ Current working directory: /home/ece558_658_2025/gjayakishan/lab2
+
+
+INFO (EXTQRCXLOG-103) : The Command File Options for the current Quantus run are as follows:
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GND"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing "auto" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -net_name_space "LAYOUT" \
+	 -split_via_by_unit_area false
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pegasus \
+	 -directory_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb" \
+	 -hierarchy_delimiter "/" \
+	 -library_definitions_file "/home/ece558_658_2025/gjayakishan/lab2/cds.lib" \
+	 -run_name "XOR_X1"
+log_file \
+	 -file_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/qrc.XOR_X1.log"
+output_db -type spice \
+	 -device_finger_delimiter "@" \
+	 -hierarchy_delimiter "/" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "false" \
+	 -sub_node_char "#"
+output_setup \
+	 -directory_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb" \
+	 -file_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1-post-layout.sp" \
+	 -net_name_space "SCHEMATIC" \
+	 -temporary_directory_name "XOR_X1"
+process_technology \
+	 -technology_corner \
+		"typical" \
+	 -technology_library_file "/ece558_658/pdk/verification/pvtech.lib" \
+	 -technology_name "gpdk045" \
+	 -temperature \
+		"25.0"
+
+
+WARNING (EXTQRCXOPT-381) : The output_db -hierarchy_delimiter option value cannot be an empty string.
+It is now set to be the same as that of the input_db -hierarchy_delimiter
+option. If input_db -hierarchy_delimiter is not set, then output_db
+-hierarchy_delimiter is set to the default value ("/" character).
+-------------------------------------------------------------------------------------
+Fri Oct 24 13:35:05 2025: BEGIN INPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Fri Oct 24 13:35:05 2025: DONE INPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+INPUT stage summary:
+-------------------------------------------------------------------------------------
+ Number of CPUs requested:		1
+ Techfile(s):
+    /ece558_658/pdk/verification/qrc/typical/qrcTechFile; process name: 
+
+ License(s) used:	QTS300 (x1)
+
+ Techgen compilation option(s):
+    -techdir /ece558_658/pdk/verification/qrc/typical -inc /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1/XOR_X1.ilf -lvs /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1/XOR_X1.xcn -p2lvs /ece558_658/pdk/verification/qrc/typical/qrcTechFile -reseqn -sw3d -p poly_conn,allGate,Oxide -canonical_res_caps -length_units meters -exclude_gate_res -danglingR_proper -cap_ground_layer psubstrate -split_wide_mos _nmos1v,1,0.5 -split_wide_mos _pmos1v,1,0.5 /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1
+
+ Input files:
+    /ece558_658/pdk/verification/qrc/typical/layer_setup
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.agf
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.devtab
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.gds.map
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.ixf
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.lph
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.lvsfile
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.nxf
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.ports
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1.sph
+    /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1_pin_xy.spi
+
+ Design data:
+    global nets:                  0
+
+ Peak memory:	190 MB
+
+ Messages:
+    INFO (CAPGEN-41199): 
+    
+    
+    Techgen -trans results will be written to directory: /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/XOR_X1
+    
+    INFO (CAPGEN-41737): Lvs connect layers Bondpad CapMetal Nburied ind10 ind11 ind_ct npn_emit pnp_emit are not mapped in layer_setup file
+    
+    INFO (CAPGEN-41809):  Lvs connect via bp_tap via10_cap via10_nocap ind_via_diva via10_nodev Via9 Via8 Via7 Via6 Via5 Via4 Via3 Via2 Via1 cont_poly cont_pdiff cont_ndiff ptap ntap nb_tap are not mapped in layer_setup file.
+    
+    WARNING (RCXSPIC-27104): p2lvsfile in tech directory does not have resistance 
+     temperature coefficients (TC1, TC2). ?temperature is ignored 
+    
+    WARNING (AGDSEXT-30124): The <design>.props file is not available. The CCL option "input_db calibre/pvs/pegasus -device_properties_file <filename>" can be used to specify the .props file. 
+    
+    INFO (AGDSEXT-30016): 
+    setting dbunit 5e-10 1 5e-10
+    
+-------------------------------------------------------------------------------------
+Fri Oct 24 13:35:05 2025: BEGIN EXTRACTION stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Fri Oct 24 13:35:09 2025: DONE EXTRACTION stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+EXTRACTION stage summary:
+-------------------------------------------------------------------------------------
+ Design data:
+    LVS nets:                     24
+    signal nets:                  24
+    floating nets:                0
+    ground net name:              GND
+
+ Peak memory:	190 MB
+
+-------------------------------------------------------------------------------------
+Fri Oct 24 13:35:09 2025: BEGIN OUTPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Fri Oct 24 13:35:10 2025: DONE OUTPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+OUTPUT stage summary:
+-------------------------------------------------------------------------------------
+ Reduction statistics:
+    Dangling Rs removed:          0
+    Merged Parallel Rs:           0
+    Mfactor Merged devices:       0
+    Rs shorted by min_res option: 4
+    Merged Parallel Self Caps:    0
+    CCs filtered by minC option:  258
+    Shorted Incomplete Nets:      0
+ Output statistics:
+    R: 309
+    C: 1244
+    L: 0
+
+ Peak memory:	190 MB
+
+-------------------------------------------------------------------------------------
+
+INFO (LBRCXM-920): Host name and peak memory report
+ Host Name:                    vlsicad.ecs.umass.edu
+ Peak memory used:             190 MB (sampled at 15s intervals)
+
+INFO (LBRCXM-702): Run ended: Fri Oct 24 13:35:10 2025
+
+
+INFO (LBRCXM-805): Quantus run took:  2s user, 2s sys, 5s elapsed
+
+
+INFO (LBRCXM-708): *****  Quantus terminated normally  *****
+
+

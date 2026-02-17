@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      gjayakishan
+HostName                       vlsicad.ecs.umass.edu
+ProcessIdentifier              957426
+ProcessCreationTime_UTC        1761158680
+ProcessCreationTime_Readable   Wed Oct 22 14:44:40 2025 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/XOR_X1/layout/layout.oa.cdslck
+TimeEditLocked                 Wed Oct 22 17:17:10 2025 EDT

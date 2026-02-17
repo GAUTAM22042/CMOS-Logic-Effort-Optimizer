@@ -1,0 +1,69 @@
+# This Pegasus GUI File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to Pegasus GUI Tools malfunction.
+# 
+"Run Directory" internal none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs
+"Current Directory" internal none /home/ece558_658_2025/gjayakishan/lab2
+"Cadence Directory" internal none /home/ece558_658_2025/gjayakishan/lab2/.cadence/
+"Job Signature" internal none IPVS_1761354771_1902963
+"Pegasus Job Mode" internal none drc
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/.preset.autosave
+"Technology Name" internal none "gpdk045"
+"Technology RuleSet" internal none "default"
+"Technology Mapping File" internal none /ece558_658/pdk/verification/pvtech.lib
+"Technology Rule File" internal none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/.technology.rul
+"Pegasus Version" internal none 24.13-s018
+"Binary Name" internal none pegasusgui
+"Pegasus Build Date" internal none "Wed Jun 18 15:36:24 PDT 2025"
+"Pegasus Job Time" internal none 1761354774
+"DFII version" internal none IC25.1.0
+"Run Directory" internal none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs
+"Pegasus Job Mode" internal none drc
+"Rule File" input text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/.technology.rul
+"Cell Tree" output text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/cell_tree.txt
+"Layout Scale" internal none 0.0005
+"Layout TechLib" internal none gpdk045
+"Layout Library Name" internal none XOR_X1
+"Layout Cell Name" internal none XOR_X1
+"Layout View Name" internal none layout
+"Layout ConvertPin" internal text geometry
+"Layout HierDepth" internal none 32
+"Layout MaxVertices" internal none 2048
+"Layout Top Cell" internal none XOR_X1
+"Layout GDSII" input none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.gds.gz
+"Intermediate GDSII File" output none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.gds.gz
+"Intermediate GDSII File creation Errors" internal text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/PIPO1.LOG
+"Intermediate OASIS File creation Errors" internal text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/PIPO1.LOG
+"Enable Coloring" input none yes
+"Layout ReplaceBusBitChar" input none nil
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout FlattenPCells" input none nil
+"Job Signature" internal none IPVS_1761354771_1902963
+"Do not check rules files before run" internal none ENABLED
+"Control File" input text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/pegasusdrcctl
+"Pegasus Job Log" log text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/pegasusuidrc.log
+"It is Pegasus flow" internal none ENABLED
+"Pegasus Log Dir" internal none LOGS
+"PIPO Setup File I" internal text  /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/pipo1.setup
+"PIPO Log I" log text  /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/PIPO1.LOG
+"PIPO Output I" internal text  /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/PIPO1.OUT
+"Input Layout" input none OA: XOR_X1 XOR_X1 layout
+"Output Layout Cellmap I" internal text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/lay_cellMap.txt
+"Pegasus Version" internal none 24.13-s018
+"Binary Name" internal none pegasusvirt
+"Pegasus Build Date" internal none "Wed Jun 18 15:36:24 PDT 2025"
+"Pegasus Job Time" internal none 1761354774
+"ASCII DRC Report Database" output rdb /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.drc_errors.ascii
+"DRC Summary" output text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.sum
+"Layout GDSII" input none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.gds.gz
+"Layout Top Cell" internal none XOR_X1
+"Pegasus Job Mode" internal none drc
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/.technology.rul
+"Run Directory" internal none /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/
+"Pegasus Mode Info" internal none OMKPOFIEGIPBJAMKEBJJHIPBIMGFMHGM
+"Pegasus Version" internal none 24.13-s018
+"Binary Name" internal none pegasus
+"Pegasus Build Date" internal none "Wed Jun 18 22:37:46 EDT 2025"
+"Pegasus Job Time" internal none 1761354795

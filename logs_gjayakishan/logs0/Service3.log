@@ -1,0 +1,128 @@
+\# Program start time:     UTC 2025.10.25 01:46:58.629
+\# Local time: EDT (UTC-04:00) 2025.10.24 21:46:58.629
+\o Program:		@(#)$CDS: Virtuoso Studio version IC25.1-64b 08/12/2025 20:24 (cpgbld31) $
+\o Hierarchy:		/opt/cadence/ic251_hotfix/install/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC25.1-64b.ISR1.30  (64-bit addresses)
+\# Command line:	/opt/cadence/ic251_hotfix/install/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost vlsicad.ecs.umass.edu -beanport 11903 -beanbinlog  -beanLogFile /home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/amps_Service3.log -mpssession virtuoso1902841 -mpshost vlsicad.ecs.umass.edu -davinciService DaVinciService_1902841_1761354412 -scopedPid 1902841 -axlSession fnxSession1 -axlServiceIdFlag 3 -uuid d792c831-22b5-4ddf-9f23-7de233032acf -heartbeat /dev/shm/swift-heartbeat.lBE9OjXx6e -log /home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log -adeBrokerAddress vlsicad.ecs.umass.edu:33149 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D66F181069575DD2676EB9D5D9828DF2C79A2891D9F67D0227DAAD043CF32C87766E3A12FFC06BC4D0E1FA30FD016D4B100001E04 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	vlsicad.ecs.umass.edu (x86_64)
+\# Operating system:	Red Hat Enterprise Linux 8.10 (Ootpa)
+\# Kernel:	Linux 4.18.0-553.16.1.el8_10.x86_64 #1 SMP Thu Aug 1 04:16:12 EDT 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4173 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        776 MB
+\# Available memory:	    183,218 MB
+\# System memory:	    261,128 MB
+\# Maximum memory size:	    260,541 MB
+\# Max mem available:	    183,408 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,802 MB
+\# Thread usage limits (effective/default):	maxthreads 1027901/1027901 maxload 64.00/64.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		gjayakishan
+\o Working Directory:	vlsicad.ecs.umass.edu:/home/ece558_658_2025/gjayakishan/lab2
+\# Process Id:		1916355
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pegasusui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading photonics.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         323 MB, process size 2,051 MB at UTC 2025.10.25 01:47:06.397
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading vem.cxt 
+\o Loading lp.cxt 
+\o Loading hmp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is LSCS.
+\# [21:46:58.510929] Configured Lic search path (25.01-s002): 5280@vlsicad.ecs.umass.edu
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1902841, host=vlsicad.ecs.umass.edu). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 1916355 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 6 seconds.
+\w *WARNING* LIB NAND_X1 from File /home/ece558_658_2025/gjayakishan/lab2/cds.lib Line 8 redefines
+\w LIB NAND_X1 from the same file (defined earlier.)
+\w *WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab2/XOR' does not exist
+\w 	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'XOR'.
+\w *WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab1/NOT_X1' does not exist
+\w 	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'NOT_X1'.
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\o Loading hydraVmt.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1916355' to open it when Virtuoso freezes.
+\# Virtuoso has launched. For more information, open CIW - Tools - Diagnostic Center - Performance Tab - Check SKILL - Virtuoso Launch.
+\#   Virtuoso initialization   9.72s
+\#   Custom initialization     0.83s
+\#   Total                    10.55s
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2025-10-24 21:47:07.679 -0400] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "3", "hostname": "vlsicad.ecs.umass.edu", "processid": 1916355, "logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log"}
+\# Memory report: using         604 MB, process size 3,738 MB at UTC 2025.10.25 01:47:09.725
+\# Available memory:        183,209 MB at UTC 2025.10.25 01:47:17.745
+\# Memory report: Maximum memory size now 183,821 MB at UTC 2025.10.25 01:47:17.745
+\# Thread usage report: 27 active threads, active load 1.40 at UTC 2025.10.25 01:47:17.745
+\o [2025-10-24 21:52:08.296 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "3", "hostname": "vlsicad.ecs.umass.edu", "processid": 1916355, "logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log"}
+\o Loading vdsil.cxt 
+\# Lic Summary:
+\# [21:52:09.326851] Cdslmd servers:5280@vlsicad.ecs.umass.edu
+\# [21:52:09.326866] Feature usage summary:
+\# Memory report: on exit            460 MB, process size 3,658 MB at UTC 2025.10.25 01:52:09.326
+\# Memory report: peak usage         612 MB, process size 3,810 MB

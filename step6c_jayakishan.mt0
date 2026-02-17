@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06-3 linux64' PARAM_COUNT=0
+.TITLE '*==================== step6_final_good.sp (step 6.3 clean pass case, no hold fail) ===================='
+ tphi2            trst1            d_rst_phi        sout_dly_c2     
+ early_flag       temper           alter#          
+  2.015e-09        2.065e-09        5.000e-11        1.041e-09      
+    0.             2.500e+01       1               

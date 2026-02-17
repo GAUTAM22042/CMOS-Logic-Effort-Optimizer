@@ -1,0 +1,1 @@
+technology "gpdk045" -ruleSet "default" -techLib "/ece558_658/pdk/verification/pvtech.lib";

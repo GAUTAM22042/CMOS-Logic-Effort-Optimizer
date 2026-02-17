@@ -1,0 +1,33 @@
+Using: /opt/synopsys/hspice/hspice/T-2022.06-3/hspice/linux64/hspice step5_jayakishan.sp
+ ****** PrimeSim HSPICE -- T-2022.06-3 linux64 (Aug 04 2022 7739753) ******
+  Copyright (c) 1986 - 2025 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: step5_jayakishan.sp                                               
+  Command line options: /opt/synopsys/hspice/hspice/T-2022.06-3/hspice/linux64/hspice step5_jayakishan.sp
+  Start time: Fri Oct 24 22:33:52 2025
+ lic:  
+ lic: FLEXlm: SDK_12.10 
+ lic: USER:   gjayakishan          HOSTNAME: vlsicad.ecs.umass.edu 
+ lic: HOSTID: 13ac8554             PID:      1926619 
+ lic: Using FLEXlm license file: 
+ lic: 27020@vlsicad.ecs.umass.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 09-sep-2027/2025.06 
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27020@vlsicad.ecs.umass.edu 
+ lic:   
+  **error** (step5_jayakishan.sp:28) syntax error at or before "+" "0" "0" 
+
+Syntax reference: 
+Vxxx n+ n- [[DC=] dcval tranfun [AC=acmag acphase]]
+Ixxx n+ n- [[DC=] dcval tranfun [AC=acmag acphase]]
++ [M=val]
+
+
+
+               ***** job aborted
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.04(s)

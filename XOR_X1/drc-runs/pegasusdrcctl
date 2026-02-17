@@ -1,0 +1,12 @@
+text_depth -primary;
+virtual_connect -colon no;
+virtual_connect -semicolon_as_colon yes;
+virtual_connect -noname;
+virtual_connect -report no;
+virtual_connect -depth -primary;
+report_summary -drc "XOR_X1.sum" -replace;
+max_results -drc 1000;
+results_db -drc "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.drc_errors.ascii" -ascii;
+abort_on_layout_error yes;
+layout_format gdsii;
+layout_path "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.gds.gz";

@@ -1,0 +1,37 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06-3 linux64"
+* "format" "HSP"
+* "rundate" "01:07:22 10/24/2025 "
+* "netlist" "step3_jayakishan.sp "
+* "runtitle" "*==================== step3_jayakishan.sp ===================="
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ 1 = 0.000e+00       
++ cin = 0.000e+00       
++ cout = 1.571e-06       
++ net1 = 4.374e-05       
++ net10 = 9.797e-02       
++ net12 = 2.251e-05       
++ net13 = 1.100e+00       
++ net14 = 9.841e-01       
++ net18 = 2.505e-01       
++ net2 = 1.493e-04       
++ net21 = 8.285e-02       
++ net27 = 2.505e-01       
++ net3 = 1.100e+00       
++ net33 = 7.505e-05       
++ net37 = 7.076e-05       
++ net4 = 1.100e+00       
++ net5 = 1.100e+00       
++ net6 = 1.100e+00       
++ net7 = 1.100e+00       
++ net8 = 9.277e-01       
++ phi = 0.000e+00       
++ rst = 0.000e+00       
++ sout = 3.662e-03       
++ vdd = 1.100e+00       
+***   END: Saved Operating Point ***                     

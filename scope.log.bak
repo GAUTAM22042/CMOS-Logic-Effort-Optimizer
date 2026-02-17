@@ -1,0 +1,40 @@
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+350+428
+wm geometry .sigmgr 376x204+514+186
+ScopeSigMgr:loadpffile /home/ece558_658_2025/gjayakishan/lab2/step6c_jayakishan.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x342+756+474
+wm geometry .sigmgr._PF:1 229x337+756+474
+wm geometry .sigmgr._PF:1 223x330+756+474
+wm geometry .sigmgr._PF:1 207x303+756+474
+wm geometry .sigmgr._PF:1 204x300+756+474
+wm geometry .sigmgr._PF:1 204x298+756+474
+wm geometry .sigmgr._PF:1 204x297+756+474
+wm geometry .sigmgr._PF:1 204x298+756+474
+wm geometry .sigmgr._PF:1 204x298+730+466
+wm geometry .sigmgr._PF:1 204x298+685+446
+wm geometry .sigmgr._PF:1 204x298+649+429
+wm geometry .sigmgr._PF:1 204x298+638+423
+wm geometry .sigmgr._PF:1 204x298+632+417
+wm geometry .sigmgr._PF:1 204x298+624+411
+wm geometry .sigmgr._PF:1 204x298+615+404
+wm geometry .sigmgr._PF:1 204x298+613+402
+pf:read PF:1 v(phi)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 v(rst)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:1 v(sout)
+# WF:1:3
+Graph addsignal WF:1:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Graph:DSel
+Graph:Select Graph0
+GrXY:NewGraph
+# Graph1
+Mdi:Iconify
+Graph:Select Graph0
+Graph:DSel

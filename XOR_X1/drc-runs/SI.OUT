@@ -1,0 +1,53 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+
+Running simulation in directory: "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/".
+
+*WARNING* LIB NAND_X1 from File /home/ece558_658_2025/gjayakishan/lab2/cds.lib Line 8 redefines
+LIB NAND_X1 from the same file (defined earlier.)
+*WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab2/XOR' does not exist
+	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'XOR'.
+*WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab1/NOT_X1' does not exist
+	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'NOT_X1'.
+*WARNING* LIB NAND_X1 from File /home/ece558_658_2025/gjayakishan/lab2/cds.lib Line 8 redefines
+LIB NAND_X1 from the same file (defined earlier.)
+*WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab2/XOR' does not exist
+	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'XOR'.
+*WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab1/NOT_X1' does not exist
+	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'NOT_X1'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+End netlisting Oct 22 15:15:30 2025
+
+Running simin
+
+Running runSim()...
+
+
+Running runsim with simulator: "auCdl"
+Begin simulation:    Oct 22 15:15:30 2025
+
+auCdl netlisting completed
+End simulation:      Oct 22 15:15:30 2025
+INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

@@ -1,0 +1,17 @@
+
+/opt/cadence/pegasus/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : XOR_X1_972162.db
+ECDB dir        : ./
+Top Cell        : XOR_X1
+CDL netlist     : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/svdb/XOR_X1.net
+Layer map file  : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/svdb/XOR_X1.ecdbmap
+Text map file   : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/svdb/XOR_X1.ports
+Dependency map  : XOR_X1.lmap.perc
+Lvs file        : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/svdb/XOR_X1.lvsfile
+Float net file  : .XOR_X1.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : XOR_X1_972162

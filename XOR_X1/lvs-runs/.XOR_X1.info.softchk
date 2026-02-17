@@ -1,0 +1,7 @@
+cell: "XOR_X1"
+selected net: "GND"
+rejected nets: "3" "11" "12" "18" "20" 
+contact layer:  "ptap"
+lower layer: "psubstrate"
+upper layer:  "pdiff_conn"
+command:  "sconnect pdiff_conn psubstrate -by ptap"

@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   24.13-s018
+#####  NVN Run Start                 :   Fri Oct 24 21:15:19 2025
+#####  ERC Summary File              :   XOR_X1.sum
+#####  Extraction Report File        :   XOR_X1.rep
+#####  Comparison Report File        :   XOR_X1.rep.cls
+#####  Top Cell                      :   XOR_X1  <vs>  XOR_X1
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   XOR_X1 XOR_X1 layout
+#####  Schematic File                :   /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.cdl (cdl)
+#####  Rules File                    :   /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/.technology.rul
+#####  Pin Swap File                 :   XOR_X1.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 1s - (1s)
+#####  Extraction Peak Memory Usage  :   31.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   267.83MB
+#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
+#####  LVS Total Exec Time           :   0h 0m 1s - (1s)                 
+#####  LVS Total Peak Memory Usage   :   267.83MB
+#####  
+##############################################################################################################
+
+

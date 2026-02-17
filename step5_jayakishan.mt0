@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06-3 linux64' PARAM_COUNT=0
+.TITLE '*==================== step5_final_2g.sp ===================='
+ pavg_2g          temper           alter#          
+  4.187e-05        2.500e+01       1               

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06-3 linux64' PARAM_COUNT=0
+.TITLE '667mhz'
+ pavg_1ghz        pavg_2ghz        pavg_667mhz      temper          
+ alter#          
+  5.347e-05        5.347e-05        5.347e-05        2.500e+01      
+3               

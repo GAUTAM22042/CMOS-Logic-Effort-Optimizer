@@ -1,0 +1,3 @@
+1761354922 0 1761354922 "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs" "pegasusrv" "" "XOR_X1" "" "" "" "" "" "" "" "" "LVS" true
+1761354799 0 1761354799 "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs" "pegasusrv" "" "XOR_X1" "" "" "" "" "" "" "" "" "DRC" true
+1761354795 0 1761354795 "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/drc-runs/XOR_X1.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true

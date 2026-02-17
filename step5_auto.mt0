@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06-3 linux64' PARAM_COUNT=0
+.TITLE '*==================== step5_jayakishan_auto.sp ===================='
+ pavg_1ghz        temper           alter#          
+  5.495e-05        2.500e+01       1               

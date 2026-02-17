@@ -1,0 +1,13 @@
+.vecformat 1
+.vecorder cin rst
+.idelay 100p
+.trise 30p
+.tfall 30p
+.period 1n
+
+* cycle:   0  1  2  3  4
+cin        0  0  1  0  1
+rst        0  1  1  1  1
+
+.endvec
+

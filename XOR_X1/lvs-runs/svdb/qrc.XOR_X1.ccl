@@ -1,0 +1,47 @@
+#--------------------------------------------------------------------------------------
+# OPTION COMMAND FILE created by Cadence Extraction Quantus UI Version 24.1.0-p089
+#--------------------------------------------------------------------------------------
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GND"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -split_via_by_unit_area false \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -net_name_space "LAYOUT"
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pegasus \
+	 -run_name "XOR_X1" \
+	 -directory_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb" \
+	 -hierarchy_delimiter "/" \
+	 -library_definitions_file "/home/ece558_658_2025/gjayakishan/lab2/cds.lib"
+output_db -type spice \
+	 -device_finger_delimiter "@" \
+	 -hierarchy_delimiter "" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_res_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -sub_node_char "#"
+output_setup \
+	 -directory_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb" \
+	 -file_name "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1-post-layout.sp" \
+	 -net_name_space "SCHEMATIC" \
+	 -temporary_directory_name "XOR_X1"
+process_technology \
+	 -technology_corner \
+		"typical" \
+	 -technology_library_file "/ece558_658/pdk/verification/pvtech.lib" \
+	 -technology_name "gpdk045" \
+	 -temperature \
+		25.0

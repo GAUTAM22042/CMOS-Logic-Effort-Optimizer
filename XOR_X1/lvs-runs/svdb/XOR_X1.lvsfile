@@ -1,0 +1,156 @@
+;| version 1
+text text_ind10 attach ind10
+text text_metal1_conn attach metal1_conn
+text text_metal2_conn attach metal2_conn
+text text_metal3_conn attach metal3_conn
+text text_metal4_conn attach metal4_conn
+text text_metal5_conn attach metal5_conn
+text text_metal6_conn attach metal6_conn
+text text_metal7_conn attach metal7_conn
+text text_metal8_conn attach metal8_conn
+text text_metal9_conn attach metal9_conn
+text text_ind11 attach ind11
+text text_metal10_conn attach metal10_conn
+text text_metal11_conn attach metal11_conn
+text text_ind_ct attach ind_ct
+connect Bondpad metal11_conn by bp_tap
+connect ind11 metal11_conn
+connect metal11_conn CapMetal by via10_cap
+connect metal11_conn metal10_conn by via10_nocap
+connect ind11 ind10 by ind_via_diva
+connect metal11_conn metal10_conn by via10_nodev
+connect ind_ct ind10
+connect ind10 metal10_conn
+connect metal10_conn metal9_conn by Via9
+connect metal9_conn metal8_conn by Via8
+connect metal8_conn metal7_conn by Via7
+connect metal7_conn metal6_conn by Via6
+connect metal6_conn metal5_conn by Via5
+connect metal5_conn metal4_conn by Via4
+connect metal4_conn metal3_conn by Via3
+connect metal3_conn metal2_conn by Via2
+connect metal2_conn metal1_conn by Via1
+connect metal1_conn poly_conn by cont_poly
+connect metal1_conn pdiff_conn by cont_pdiff
+connect metal1_conn npn_emit by cont_ndiff
+connect metal1_conn ndiff_conn by cont_ndiff
+connect metal1_conn pnp_emit by cont_pdiff
+sconnect pdiff_conn psubstrate by ptap
+sconnect ndiff_conn nwell_conn by ntap
+sconnect nwell_conn Nburied by nb_tap
+model=mos[g45n1svt],g45n1svt
+element mos[g45n1svt] _nmos1v poly_conn ndiff_conn psubstrate
+model=mos[g45n1hvt],g45n1hvt
+element mos[g45n1hvt] _nmos1v_hvt poly_conn ndiff_conn psubstrate
+model=mos[g45n1lvt],g45n1lvt
+element mos[g45n1lvt] _nmos1v_lvt poly_conn ndiff_conn psubstrate
+model=mos[g45n1nvt],g45n1nvt
+element mos[g45n1nvt] _nmos_12_native poly_conn ndiff_conn psubstrate
+model=mos[g45n2svt],g45n2svt
+element mos[g45n2svt] _nmos_25 poly_conn ndiff_conn psubstrate
+model=mos[g45n2nvt],g45n2nvt
+element mos[g45n2nvt] _nmos_25_native poly_conn ndiff_conn psubstrate
+model=mos[g45ncap1],g45ncap1
+element mos[g45ncap1] _nmoscap1v poly_conn ndiff_conn psubstrate
+model=mos[g45ncap2],g45ncap2
+element mos[g45ncap2] _nmoscap2v poly_conn ndiff_conn psubstrate
+model=mos[g45p1svt],g45p1svt
+element mos[g45p1svt] _pmos1v poly_conn pdiff_conn nwell_conn
+model=mos[g45p1hvt],g45p1hvt
+element mos[g45p1hvt] _pmos1v_hvt poly_conn pdiff_conn nwell_conn
+model=mos[g45p1lvt],g45p1lvt
+element mos[g45p1lvt] _pmos1v_lvt poly_conn pdiff_conn nwell_conn
+model=mos[g45p2svt],g45p2svt
+element mos[g45p2svt] _pmos2v poly_conn pdiff_conn nwell_conn
+model=mos[g45pcap1],g45pcap1
+element mos[g45pcap1] _pmoscap1v poly_conn pdiff_conn nwell_conn
+model=mos[g45pcap2],g45pcap2
+element mos[g45pcap2] _pmoscap2v poly_conn pdiff_conn nwell_conn
+model=res[g45rm1],g45rm1
+element res[g45rm1] _resm1 metal1_conn
+model=res[g45rm2],g45rm2
+element res[g45rm2] _resm2 metal2_conn
+model=res[g45rm3],g45rm3
+element res[g45rm3] _resm3 metal3_conn
+model=res[g45rm4],g45rm4
+element res[g45rm4] _resm4 metal4_conn
+model=res[g45rm5],g45rm5
+element res[g45rm5] _resm5 metal5_conn
+model=res[g45rm6],g45rm6
+element res[g45rm6] _resm6 metal6_conn
+model=res[g45rm7],g45rm7
+element res[g45rm7] _resm7 metal7_conn
+model=res[g45rm8],g45rm8
+element res[g45rm8] _resm8 metal8_conn
+model=res[g45rm9],g45rm9
+element res[g45rm9] _resm9 metal9_conn
+model=res[g45rm10],g45rm10
+element res[g45rm10] _resm10 metal10_conn
+model=res[g45rm11],g45rm11
+element res[g45rm11] _resm11 metal11_conn
+model=res[g45rsnd],g45rsnd
+element res[g45rsnd] _ressndiff ndiff_conn psubstrate
+model=res[g45rnsnd],g45rnsnd
+element res[g45rnsnd] _resnsndiff ndiff_conn psubstrate
+model=res[g45rsnp],g45rsnp
+element res[g45rsnp] _ressnpoly poly_conn psubstrate
+model=res[g45rsnp],g45rsnp
+element res[g45rsnp] _ressnpoly_nw poly_conn nwell_conn
+model=res[g45rnsnp],g45rnsnp
+element res[g45rnsnp] _resnsnpoly poly_conn psubstrate
+model=res[g45rnsnp],g45rnsnp
+element res[g45rnsnp] _resnsnpoly_nw poly_conn nwell_conn
+model=res[g45rspd],g45rspd
+element res[g45rspd] _resspdiff pdiff_conn nwell_conn
+model=res[g45rnspd],g45rnspd
+element res[g45rnspd] _resnspdiff pdiff_conn nwell_conn
+model=res[g45rspp],g45rspp
+element res[g45rspp] _ressppoly poly_conn psubstrate
+model=res[g45rspp],g45rspp
+element res[g45rspp] _ressppoly_nw poly_conn nwell_conn
+model=res[g45rnspp],g45rnspp
+element res[g45rnspp] _resnsppoly poly_conn psubstrate
+model=res[g45rnspp],g45rnspp
+element res[g45rnspp] _resnsppoly_nw poly_conn nwell_conn
+model=res[g45rnws],g45rnws
+element res[g45rnws] _resnwsti nwell_conn psubstrate
+model=res[g45rnwo],g45rnwo
+element res[g45rnwo] _resnwoxide nwell_conn psubstrate
+model=diode[g45nd1svt],g45nd1svt
+element diode[g45nd1svt] _ndio psubstrate ndiff_conn
+model=diode[g45nd1lvt],g45nd1lvt
+element diode[g45nd1lvt] _ndio_lvt psubstrate ndiff_conn
+model=diode[g45nd1hvt],g45nd1hvt
+element diode[g45nd1hvt] _ndio_hvt psubstrate ndiff_conn
+model=diode[g45nd1nvt],g45nd1nvt
+element diode[g45nd1nvt] _ndio_nvt psubstrate ndiff_conn
+model=diode[g45nd2svt],g45nd2svt
+element diode[g45nd2svt] _ndio_2v psubstrate ndiff_conn
+model=diode[g45nd2nvt],g45nd2nvt
+element diode[g45nd2nvt] _ndio_2v_nvt psubstrate ndiff_conn
+model=diode[g45pd1svt],g45pd1svt
+element diode[g45pd1svt] _pdio pdiff_conn nwell_conn
+model=diode[g45pd1lvt],g45pd1lvt
+element diode[g45pd1lvt] _pdio_lvt pdiff_conn nwell_conn
+model=diode[g45pd1hvt],g45pd1hvt
+element diode[g45pd1hvt] _pdio_hvt pdiff_conn nwell_conn
+model=diode[g45pd2svt],g45pd2svt
+element diode[g45pd2svt] _pdio_2v pdiff_conn nwell_conn
+model=bjt[g45vpnp2],g45vpnp2
+element bjt[g45vpnp2] _vpnp2 psubstrate nwell_conn pdiff_conn
+model=bjt[g45vpnp5],g45vpnp5
+element bjt[g45vpnp5] _vpnp5 psubstrate nwell_conn pdiff_conn
+model=bjt[g45vpnp10],g45vpnp10
+element bjt[g45vpnp10] _vpnp10 psubstrate nwell_conn pdiff_conn
+model=bjt[g45vnpn2],g45vnpn2
+element bjt[g45vnpn2] _npn2 nwell_conn psubstrate npn_emit
+model=bjt[g45vnpn5],g45vnpn5
+element bjt[g45vnpn5] _npn5 nwell_conn psubstrate npn_emit
+model=bjt[g45vnpn10],g45vnpn10
+element bjt[g45vnpn10] _npn10 nwell_conn psubstrate npn_emit
+model=cap[g45cmim],g45cmim
+element cap[g45cmim] _mimcap CapMetal metal10_conn psubstrate
+model=generic[g45inda],g45inda
+element generic[g45inda] _ind_a ind10[PLUS] ind11[MINUS] psubstrate[B]
+model=generic[g45inds],g45inds
+element generic[g45inds] _ind_s ind11[PLUS] ind11[MINUS] psubstrate[B]

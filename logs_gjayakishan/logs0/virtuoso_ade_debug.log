@@ -1,0 +1,37 @@
+[ADE GUI: 1902841]
+[2025-10-24 21:06:52.666 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftLoggingService0 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService0.log"}
+[2025-10-24 21:06:52.775 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftNetlistService1 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service1.log"}
+[2025-10-24 21:06:52.776 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '0'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService0.log"}
+[2025-10-24 21:06:52.776 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1906980' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService0.log"}
+[2025-10-24 21:07:01.546 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '1'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service1.log"}
+[2025-10-24 21:07:01.772 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '1906997' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service1.log"}
+[2025-10-24 21:10:53.473 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1906980' stopped with exit code '0' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService0.log"}
+[2025-10-24 21:46:56.491 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftLoggingService2 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService2.log"}
+[2025-10-24 21:46:56.599 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftNetlistService3 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log"}
+[2025-10-24 21:46:56.600 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '2'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService2.log"}
+[2025-10-24 21:46:56.600 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1916250' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService2.log"}
+[2025-10-24 21:47:04.678 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '3'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log"}
+[2025-10-24 21:47:04.810 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '1916267' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log"}
+[2025-10-24 21:52:10.554 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '1916267' stopped with exit code '0' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service3.log"}
+[2025-10-24 22:08:02.255 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1916250' stopped with exit code '0' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService2.log"}
+[2025-10-24 23:23:20.603 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftLoggingService4 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService4.log"}
+[2025-10-24 23:23:20.710 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftNetlistService5 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service5.log"}
+[2025-10-24 23:23:20.711 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '4'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService4.log"}
+[2025-10-24 23:23:20.711 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1942759' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService4.log"}
+[2025-10-24 23:23:31.307 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '5'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service5.log"}
+[2025-10-24 23:23:31.467 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '1942776' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service5.log"}
+[2025-10-24 23:24:11.806 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1942759' stopped with exit code '0' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService4.log"}
+[2025-10-24 23:25:12.181 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftLoggingService6 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}
+[2025-10-24 23:25:12.288 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - /home/ece558_658_2025/gjayakishan/lab2/.tmp_gjayakishan/.cmddir0/swiftNetlistService7 is starting {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service7.log"}
+[2025-10-24 23:25:12.288 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '6'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}
+[2025-10-24 23:25:12.288 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '1948049' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}
+[2025-10-24 23:25:22.112 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - COLLECTION_JOB_ID = '7'
+ {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service7.log"}
+[2025-10-24 23:25:22.179 -0400] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '1948066' is starting up on host 'vlsicad.ecs.umass.edu' {"logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/Service7.log"}

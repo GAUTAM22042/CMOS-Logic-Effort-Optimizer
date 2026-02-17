@@ -1,0 +1,109 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+*WARNING* LIB NAND_X1 from File /home/ece558_658_2025/gjayakishan/lab2/cds.lib Line 8 redefines
+LIB NAND_X1 from the same file (defined earlier.)
+*WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab2/XOR' does not exist
+	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'XOR'.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC25.1-64b 08/12/2025 20:22 (cpgbld31) $
+          : sub-version  IC25.1-64b.ISR1.30 
+Started at: 24-Oct-2025  21:15:09
+User Name : gjayakishan
+Host Name : vlsicad.ecs.umass.edu
+Directory : /home/ece558_658_2025/gjayakishan/lab2
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.gds.gz' already exists. It will be overwritten.
+*WARNING* The directory: '/home/ece558_658_2025/gjayakishan/lab1/NOT_X1' does not exist
+	but was defined in libFile '/home/ece558_658_2025/gjayakishan/lab2/cds.lib' for Lib 'NOT_X1'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+INFO (XSTRM-217): Reading the layer map file, /opt/cadence/gpdk045/gpdk045_v_6_0/gpdk045/gpdk045.layermap
+WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 XOR_X1
+strmFile                                /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.gds.gz
+topCell                                 XOR_X1
+view                                    layout
+runDir                                  /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs
+logFile                                 /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/PIPO1.LOG
+techLib                                 gpdk045
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /opt/cadence/gpdk045/gpdk045_v_6_0/gpdk045/gpdk045.layermap
+userSkillFile                           /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 1. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_761354909390.
+INFO (XSTRM-223): 2. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_761354909391.
+INFO (XSTRM-223): 3. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_761354909392.
+INFO (XSTRM-223): 4. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_761354909393.
+INFO (XSTRM-223): 5. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_761354909394.
+INFO (XSTRM-223): 6. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_761354909395.
+INFO (XSTRM-223): 7. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_761354909396.
+INFO (XSTRM-223): 8. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_761354909397.
+INFO (XSTRM-223): 9. Translating stdVia gpdk045/M1_NWELL/layout as STRUCTURE M1_NWELL_CDNS_761354909398.
+INFO (XSTRM-223): 10. Translating stdVia gpdk045/M1_PSUB/layout as STRUCTURE M1_PSUB_CDNS_761354909399.
+INFO (XSTRM-223): 11. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_761354909390.
+INFO (XSTRM-223): 12. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_761354909391.
+INFO (XSTRM-223): 13. Translating cellview gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_761354909392.
+INFO (XSTRM-223): 14. Translating cellview gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_761354909393.
+INFO (XSTRM-223): 15. Translating cellview XOR_X1/XOR_X1/layout as STRUCTURE XOR_X1.
+
+Summary of Objects Translated:
+	Scalar Instances:                       32
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             122
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           162
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               167
+	Text:                                   10
+	TextDisplay:                            0
+	Cells:                                  15
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 34016KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

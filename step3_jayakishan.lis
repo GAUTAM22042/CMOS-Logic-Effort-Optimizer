@@ -1,0 +1,91 @@
+ ****** PrimeSim HSPICE -- T-2022.06-3 linux64 (Aug 04 2022 7739753) ******
+  Copyright (c) 1986 - 2025 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: step3_jayakishan.sp                                               
+  Command line options: /opt/synopsys/hspice/hspice/T-2022.06-3/hspice/linux64/hspice step3_jayakishan.sp -o step3_jayakishan
+  Start time: Fri Oct 24 21:54:05 2025
+ lic:  
+ lic: FLEXlm: SDK_12.10 
+ lic: USER:   gjayakishan          HOSTNAME: vlsicad.ecs.umass.edu 
+ lic: HOSTID: 13ac8554             PID:      1917885 
+ lic: Using FLEXlm license file: 
+ lic: 27020@vlsicad.ecs.umass.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 09-sep-2027/2025.06 
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27020@vlsicad.ecs.umass.edu 
+ lic:   
+  **warning** (XOR_schematic.spice:51)'.end' can not exist in include/lib files, ignored
+** warning ** duplicate temperature 25.0 is defined in .temp. Only the first one will be used.
+  **warning** multiple output options specified, using psf
+  **info** (step3_jayakishan.sp:22) DC voltage reset to initial transient source value in source 0:vphi. new dc=0.0000D+00
+  **warning** (step3_jayakishan.sp:19) Both nodes of element vss are connected together; Line ignored.
+  **warning** (g45n1svt:mnm27 (XOR_schematic.spice:35)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=1.2e-07 l=4.5e-08.
+  
+  **error** (step3_jayakishan.vec:1) The first line must be radix line. A digital vector file must contain only one RADIX command and it must be the first non-comment line in the file.
+
+          ***** job aborted
+1****** PrimeSim HSPICE -- T-2022.06-3 linux64 (Aug 04 2022 7739753) ******
+ ******  
+ *==================== step3_jayakishan.sp ====================
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+ cpu MHz	: 3200.000
+ CPU(s)		: 64
+  
+ OS:
+ Linux version 4.18.0-553.16.1.el8_10.x86_64 (mockbuild@x86-64-01.build.eng.rdu2.redhat.com) (gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC)) #1 SMP Thu Aug 1 04:16:12 EDT 2024
+
+ System loadavg : 0.44 0.34 0.33 2/2521 1917889
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    64
+  Actual Threads Count       :     1
+
+
+  ****** Statistics of Ignored Elements ******
+  Voltage Sources :       1
+
+  ******  Circuit Statistics  ******
+  # nodes       =     152 # elements   =      34
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       2
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =      32 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  transient          0.00        7001           0           0 rev=         0
+  readin             0.01
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        512.50 megabytes
+           total cpu time            0.01 seconds
+           total elapsed time        0.06 seconds
+           job started at     21:54:05 10/24/2025
+           job ended   at     21:54:06 10/24/2025
+           job total runtime         0.06 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.04(s)

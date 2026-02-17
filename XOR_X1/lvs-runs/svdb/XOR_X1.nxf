@@ -1,0 +1,33 @@
+# XXXX: Net Cross Reference (nxf) (File format 2)
+# XXXX: Layout Primary XOR_X1
+# XXXX: End of header.
+% M 4 M 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% XOR_X1 7 XOR_X1 7 
+0 3 0 net7
+0 10 0 net6
+0 5 0 net2
+0 13 0 net3
+0 19 0 net8
+0 12 0 net1
+0 7 0 net4
+0 CIN 0 CIN
+0 COUT 0 COUT
+0 GND 0 GND
+0 PHI 0 PHI
+0 RST 0 RST
+0 SOUT 0 SOUT
+0 VDD 0 VDD
+0 16 0 net18
+0 23 0 net13
+0 14 0 net14
+0 22 0 net27
+0 24 0 net5
+0 9 0 net33
+0 8 0 net37
+0 18 0 net12
+0 11 0 net21
+0 6 0 net10

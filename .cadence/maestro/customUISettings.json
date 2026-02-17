@@ -1,0 +1,57 @@
+{
+    "XOR_X1_XOR_X1_maestro_outputs": {
+        "columnOrder": null,
+        "columns": {
+            "Details": {
+                "visible": true,
+                "width": 125
+            },
+            "Digits": {
+                "visible": false,
+                "width": 80
+            },
+            "Name": {
+                "visible": true,
+                "width": 125
+            },
+            "Notation": {
+                "visible": false,
+                "width": 80
+            },
+            "Plot": {
+                "visible": true,
+                "width": 125
+            },
+            "Plot Target": {
+                "visible": true,
+                "width": 125
+            },
+            "Save": {
+                "visible": true,
+                "width": 125
+            },
+            "Spec": {
+                "visible": true,
+                "width": 125
+            },
+            "Suffix": {
+                "visible": false,
+                "width": 80
+            },
+            "Type": {
+                "visible": true,
+                "width": 125
+            },
+            "Units": {
+                "visible": false,
+                "width": 80
+            }
+        },
+        "outputsMenu": {
+            "Formatting Properties": {
+                "visible": false
+            }
+        },
+        "outputsTestFilterMenu": null
+    }
+}

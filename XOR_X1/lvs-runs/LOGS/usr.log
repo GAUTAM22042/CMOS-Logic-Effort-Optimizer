@@ -1,0 +1,10 @@
+Pegasus 24.13-s018 8ymShbAi1LEWJtFLxgceYA 2025-10-24 21:15:13 1911543 vlsicad.ecs.umass.edu
+Copyright 2025 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell XOR_X1 -log_dir LOGS -source_top_cell XOR_X1 -spice /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.spi -qrc_data -control /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/pegasuslvsctl -ui_data -gdb_data /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/.technology.rul
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz, OS: Red Hat Enterprise Linux release 8.10 (Ootpa), Logical cores: 64, Physical cores: 32, Cache: 22528 KB, CPU Speed: 3200 MHz
+         Launch host Memory: MemTotal: 257032 MB,  MemFree: 65461 MB,  SwapTotal: 4095 MB,  SwapFree: 3032 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 399 MB
+INFO:    Current path: /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/LOGS

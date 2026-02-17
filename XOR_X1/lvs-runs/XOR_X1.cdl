@@ -1,0 +1,64 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  XOR_X1
+* Top Cell Name: XOR_X1
+* View Name:     schematic
+* Netlisted on:  Oct 24 21:15:09 2025
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: XOR_X1
+* Cell Name:    XOR_X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR_X1 CIN COUT GND PHI RST SOUT VDD
+*.PININFO CIN:I GND:I PHI:I RST:I VDD:I COUT:O SOUT:B
+MPM25 net7 PHI VDD VDD g45p1svt m=1 l=45n w=240n
+MPM12 net18 net6 VDD VDD g45p1svt m=1 l=45n w=480n
+MPM13 net13 SOUT VDD VDD g45p1svt m=1 l=45n w=480n
+MPM14 net2 net3 net13 VDD g45p1svt m=1 l=45n w=480n
+MPM15 net2 CIN net18 VDD g45p1svt m=1 l=45n w=480n
+MPM11 net6 SOUT VDD VDD g45p1svt m=1 l=45n w=240n
+MPM10 net3 CIN VDD VDD g45p1svt m=1 l=45n w=240n
+MPM28 net14 net3 VDD VDD g45p1svt m=1 l=45n w=480n
+MPM29 COUT net6 net14 VDD g45p1svt m=1 l=45n w=480n
+MPM20 SOUT net8 VDD VDD g45p1svt m=1 l=45n w=240n
+MPM21 net1 PHI net27 VDD g45p1svt m=1 l=45n w=480n
+MPM22 net27 net4 VDD VDD g45p1svt m=1 l=45n w=480n
+MPM23 net5 net1 VDD VDD g45p1svt m=1 l=45n w=480n
+MPM24 net8 net7 net5 VDD g45p1svt m=1 l=45n w=480n
+MPM19 net4 RST VDD VDD g45p1svt m=1 l=45n w=240n
+MPM18 net4 net2 VDD VDD g45p1svt m=1 l=45n w=240n
+MNM27 net7 PHI GND GND g45n1svt m=1 l=45n w=120n
+MNM29 COUT net3 GND GND g45n1svt m=1 l=45n w=120n
+MNM12 net2 net3 net33 GND g45n1svt m=1 l=45n w=240n
+MNM13 net2 CIN net37 GND g45n1svt m=1 l=45n w=240n
+MNM14 net33 net6 GND GND g45n1svt m=1 l=45n w=240n
+MNM15 net37 SOUT GND GND g45n1svt m=1 l=45n w=240n
+MNM11 net6 SOUT GND GND g45n1svt m=1 l=45n w=120n
+MNM10 net3 CIN GND GND g45n1svt m=1 l=45n w=120n
+MNM28 COUT net6 GND GND g45n1svt m=1 l=45n w=120n
+MNM22 SOUT net8 GND GND g45n1svt m=1 l=45n w=120n
+MNM23 net1 net7 net12 GND g45n1svt m=1 l=45n w=240n
+MNM24 net12 net4 GND GND g45n1svt m=1 l=45n w=240n
+MNM25 net8 PHI net21 GND g45n1svt m=1 l=45n w=240n
+MNM26 net21 net1 GND GND g45n1svt m=1 l=45n w=240n
+MNM20 net4 net2 net10 GND g45n1svt m=1 l=45n w=240n
+MNM21 net10 RST GND GND g45n1svt m=1 l=45n w=240n
+.ENDS
+

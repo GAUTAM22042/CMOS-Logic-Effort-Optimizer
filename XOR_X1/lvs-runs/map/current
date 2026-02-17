@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "XOR_X1"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/"
+ )
+( model
+( "XOR_X1/XOR_X1/schematic" "XOR_X1" )
+ )
+( "XOR_X1" "ihnl/cds0/map" )
+ )

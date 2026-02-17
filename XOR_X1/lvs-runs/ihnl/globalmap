@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+XOR_X1/XOR_X1/schematic XOR_X1
+$endmodel
+$net
+$endnet
+$param
+$endparam

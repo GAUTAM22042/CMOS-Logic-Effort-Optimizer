@@ -1,0 +1,24 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "T-2022.06-3 linux64"
+"rundate" "21:56:30 10/24/2025 "
+"runtitle" "*==================== step3_jayakishan.sp ====================    "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"summary" "analysisInst" ( 
+"Summary Information"
+"step3_jayakishan.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

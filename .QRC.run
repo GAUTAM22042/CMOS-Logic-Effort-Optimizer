@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 24.1.0-p089
+#--------------------------------------------------------------------------------------
+
+quantus  -log_file /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/qrc.XOR_X1.log -cmd /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb/qrc.XOR_X1.ccl 

@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06-3 linux64' PARAM_COUNT=0
+.TITLE '*==================== step3_jayakishan.sp ===================='
+ dphi_cin_c2      temper           alter#          
+  1.000e-10        2.500e+01       1               

@@ -1,0 +1,378 @@
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+350+428
+wm geometry .sigmgr 376x204+514+186
+ScopeSigMgr:loadpffile /home/ece558_658_2025/gjayakishan/lab2/step3_jayakishan.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x342+756+474
+wm geometry .sigmgr._PF:1 232x342+727+473
+wm geometry .sigmgr._PF:1 232x342+714+473
+wm geometry .sigmgr._PF:1 232x342+710+473
+wm geometry .sigmgr._PF:1 232x342+701+473
+wm geometry .sigmgr._PF:1 232x342+695+473
+wm geometry .sigmgr._PF:1 232x342+661+471
+wm geometry .sigmgr._PF:1 232x342+610+460
+wm geometry .sigmgr._PF:1 232x342+588+454
+wm geometry .sigmgr._PF:1 232x342+586+453
+wm geometry .sigmgr._PF:1 232x342+586+451
+wm geometry .sigmgr._PF:1 232x342+586+450
+wm geometry .sigmgr._PF:1 232x342+586+449
+wm geometry .sigmgr._PF:1 235x343+586+449
+wm geometry .sigmgr._PF:1 236x343+586+449
+wm geometry .sigmgr._PF:1 262x345+586+449
+wm geometry .sigmgr._PF:1 279x351+586+449
+wm geometry .sigmgr._PF:1 284x352+586+449
+wm geometry .sigmgr._PF:1 286x353+586+449
+wm geometry .sigmgr._PF:1 287x353+586+449
+wm geometry .sigmgr._PF:1 287x352+586+449
+wm geometry .sigmgr._PF:1 286x352+586+449
+wm geometry .sigmgr._PF:1 286x351+586+449
+wm geometry .sigmgr._PF:1 285x351+586+449
+wm geometry .sigmgr._PF:1 285x350+586+449
+wm geometry .sigmgr._PF:1 283x351+586+449
+wm geometry .sigmgr._PF:1 283x350+586+449
+wm geometry .sigmgr._PF:1 277x349+586+449
+wm geometry .sigmgr._PF:1 276x348+586+449
+wm geometry .sigmgr._PF:1 272x346+586+449
+wm geometry .sigmgr._PF:1 270x347+586+449
+wm geometry .sigmgr._PF:1 268x347+586+449
+wm geometry .sigmgr._PF:1 262x347+586+449
+wm geometry .sigmgr._PF:1 259x346+586+449
+wm geometry .sigmgr._PF:1 257x346+586+449
+wm geometry .sigmgr._PF:1 254x346+586+449
+wm geometry .sigmgr._PF:1 252x344+586+449
+wm geometry .sigmgr._PF:1 250x343+586+449
+wm geometry .sigmgr._PF:1 248x342+586+449
+wm geometry .sigmgr._PF:1 245x341+586+449
+wm geometry .sigmgr._PF:1 245x340+586+449
+wm geometry .sigmgr._PF:1 241x339+586+449
+wm geometry .sigmgr._PF:1 240x337+586+449
+wm geometry .sigmgr._PF:1 239x335+586+449
+wm geometry .sigmgr._PF:1 237x335+586+449
+wm geometry .sigmgr._PF:1 237x334+586+449
+wm geometry .sigmgr._PF:1 237x331+586+449
+wm geometry .sigmgr._PF:1 235x331+586+449
+wm geometry .sigmgr._PF:1 234x329+586+449
+wm geometry .sigmgr._PF:1 234x327+586+449
+wm geometry .sigmgr._PF:1 233x327+586+449
+wm geometry .sigmgr._PF:1 232x326+586+449
+wm geometry .sigmgr._PF:1 232x325+586+449
+wm geometry .sigmgr._PF:1 231x325+586+449
+wm geometry .sigmgr._PF:1 232x324+586+449
+wm geometry .sigmgr._PF:1 231x325+586+449
+wm geometry .sigmgr._PF:1 230x324+586+449
+wm geometry .sigmgr._PF:1 230x323+586+449
+wm geometry .sigmgr._PF:1 229x323+586+449
+wm geometry .sigmgr._PF:1 229x324+586+449
+wm geometry .sigmgr._PF:1 229x326+586+449
+wm geometry .sigmgr._PF:1 230x326+586+449
+wm geometry .sigmgr._PF:1 234x330+586+449
+wm geometry .sigmgr._PF:1 239x334+586+449
+wm geometry .sigmgr._PF:1 239x335+586+449
+wm geometry .sigmgr._PF:1 243x339+586+449
+wm geometry .sigmgr._PF:1 242x340+586+449
+wm geometry .sigmgr._PF:1 247x343+586+449
+wm geometry .sigmgr._PF:1 248x345+586+449
+wm geometry .sigmgr._PF:1 250x346+586+449
+wm geometry .sigmgr._PF:1 252x346+586+449
+wm geometry .sigmgr._PF:1 251x347+586+449
+pf:read PF:1 v(phi)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+GrMeas:Threshold Graph0 Signal0 0.55 rising xyrangeAll
+# M:0
+GrMeas:Threshold Graph0 Signal0 0.55 rising xyrangeAll
+# M:1
+GrMeas:Threshold Graph0 Signal0 0.55 rising xyrangeAll
+# M:2
+Graph:DSel
+GrMeas:Select Graph0 M:2 1
+GrMeas:MoveText Graph0 M:2 1 115 1
+GrMeas:HideResult Graph0 M:2 1
+GrMeas:ShowResult Graph0 M:2 2
+GrMeas:Select Graph0 M:2 2 1
+GrMeas:MoveText Graph0 M:2 2 20 37
+Graph:DSel
+GrMeas:DelMfromMenu Graph0 M:2
+GrMeas:DelMfromMenu Graph0 M:1
+Graph:DSel
+GrMeas:Select Graph0 M:0 0
+GrMeas:MoveText Graph0 M:0 0 nw
+GrMeas:DelMfromMenu Graph0 M:0
+pf:read PF:1 v(cin)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig {Signal0 Signal1} -region {1 1} -rgnindex {0 1}
+Graph:DSel
+GrMeas:Delay Graph0 Signal1 Signal0 rising same default default default default 0.5 0.5 xyrangeAll
+# M:3
+Graph:DSel
+Graph:DSel
+wm geometry .sigmgr 376x204+514+208
+ScopeSigMgr:loadpffile /home/ece558_658_2025/gjayakishan/lab2/step3_jayakishan.tr0 1 replace
+# PF:1
+ScopeSigMgr:Unload 0 {{(1) step3_jayakishan.tr0}}
+ScopeSigMgr:loadpffile /home/ece558_658_2025/gjayakishan/lab2/step3_jayakishan.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 232x342+756+474
+wm geometry .sigmgr._PF:2 232x339+756+474
+wm geometry .sigmgr._PF:2 230x337+756+474
+wm geometry .sigmgr._PF:2 220x324+756+474
+wm geometry .sigmgr._PF:2 216x317+756+474
+wm geometry .sigmgr._PF:2 213x311+756+474
+wm geometry .sigmgr._PF:2 210x309+756+474
+wm geometry .sigmgr._PF:2 208x305+756+474
+wm geometry .sigmgr._PF:2 207x303+756+474
+wm geometry .sigmgr._PF:2 206x301+756+474
+wm geometry .sigmgr._PF:2 204x299+756+474
+wm geometry .sigmgr._PF:2 200x293+756+474
+wm geometry .sigmgr._PF:2 200x268+756+474
+wm geometry .sigmgr._PF:2 200x259+756+474
+wm geometry .sigmgr._PF:2 200x252+756+474
+wm geometry .sigmgr._PF:2 200x249+756+474
+wm geometry .sigmgr._PF:2 200x250+756+474
+wm geometry .sigmgr._PF:2 200x251+756+474
+wm geometry .sigmgr._PF:2 200x253+756+474
+wm geometry .sigmgr._PF:2 200x256+756+474
+wm geometry .sigmgr._PF:2 200x258+756+474
+wm geometry .sigmgr._PF:2 200x260+756+474
+wm geometry .sigmgr._PF:2 200x262+756+474
+wm geometry .sigmgr._PF:2 200x266+756+474
+wm geometry .sigmgr._PF:2 200x284+756+474
+wm geometry .sigmgr._PF:2 227x316+756+474
+wm geometry .sigmgr._PF:2 240x334+756+474
+wm geometry .sigmgr._PF:2 246x338+756+474
+wm geometry .sigmgr._PF:2 247x339+756+474
+wm geometry .sigmgr._PF:2 247x341+756+474
+wm geometry .sigmgr._PF:2 247x340+756+474
+wm geometry .sigmgr._PF:2 248x343+756+474
+wm geometry .sigmgr._PF:2 249x345+756+474
+wm geometry .sigmgr._PF:2 250x346+756+474
+wm geometry .sigmgr._PF:2 252x347+756+474
+wm geometry .sigmgr._PF:2 253x348+756+474
+wm geometry .sigmgr._PF:2 254x349+756+474
+wm geometry .sigmgr._PF:2 256x350+756+474
+wm geometry .sigmgr._PF:2 258x351+756+474
+wm geometry .sigmgr._PF:2 258x350+756+474
+wm geometry .sigmgr._PF:2 258x350+734+474
+wm geometry .sigmgr._PF:2 258x350+720+474
+wm geometry .sigmgr._PF:2 258x350+677+474
+wm geometry .sigmgr._PF:2 258x350+650+474
+wm geometry .sigmgr._PF:2 258x350+614+469
+wm geometry .sigmgr._PF:2 258x350+607+466
+wm geometry .sigmgr._PF:2 258x350+595+460
+wm geometry .sigmgr._PF:2 258x350+583+456
+wm geometry .sigmgr._PF:2 258x350+569+449
+wm geometry .sigmgr._PF:2 258x350+556+444
+wm geometry .sigmgr._PF:2 258x350+551+443
+wm geometry .sigmgr._PF:2 258x350+546+441
+wm geometry .sigmgr._PF:2 258x350+545+440
+wm geometry .sigmgr._PF:2 258x350+542+439
+wm geometry .sigmgr._PF:2 258x350+541+439
+wm geometry .sigmgr._PF:2 258x350+539+438
+wm geometry .sigmgr._PF:2 258x350+538+437
+wm geometry .sigmgr._PF:2 258x350+536+436
+wm geometry .sigmgr._PF:2 258x350+534+436
+wm geometry .sigmgr._PF:2 258x350+535+436
+GrXY:NewGraph
+# Graph1
+pf:read PF:2 v(cin)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:2 v(cout)
+# WF:2:2
+Graph addsignal WF:2:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:2 v(phi)
+# WF:2:3
+Graph addsignal WF:2:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:2 v(sout)
+# WF:2:4
+Graph addsignal WF:2:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+pf:read PF:2 v(vdd)
+# WF:2:5
+Graph addsignal WF:2:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal4
+Mdi:Resize 490 479
+Mdi:Move 5 5
+Mdi:Resize 490 603
+Mdi:Move 5 5
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect Signal4 add
+# Signal4
+Graph:DSel
+pf:read PF:2 v(rst)
+# WF:2:6
+Graph addsignal WF:2:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal5
+ScopeSigMgr:Unload 0 {{(1) step3_jayakishan.tr0}}
+Graph1 delsignal Signal0
+Graph1 delsignal Signal1
+Graph1 delsignal Signal2
+Graph1 delsignal Signal3
+Graph1 delsignal Signal4
+Graph1 delsignal Signal5
+ScopeSigMgr:loadpffile /home/ece558_658_2025/gjayakishan/lab2/step3_jayakishan.tr0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 232x342+756+474
+wm geometry .sigmgr._PF:3 231x339+756+474
+wm geometry .sigmgr._PF:3 230x338+756+474
+wm geometry .sigmgr._PF:3 229x336+756+474
+wm geometry .sigmgr._PF:3 228x334+756+474
+wm geometry .sigmgr._PF:3 227x333+756+474
+wm geometry .sigmgr._PF:3 227x332+756+474
+wm geometry .sigmgr._PF:3 224x331+756+474
+wm geometry .sigmgr._PF:3 222x330+756+474
+wm geometry .sigmgr._PF:3 221x330+756+474
+wm geometry .sigmgr._PF:3 220x330+756+474
+wm geometry .sigmgr._PF:3 219x330+756+474
+wm geometry .sigmgr._PF:3 218x330+756+474
+wm geometry .sigmgr._PF:3 217x330+756+474
+wm geometry .sigmgr._PF:3 216x330+756+474
+wm geometry .sigmgr._PF:3 217x330+756+474
+wm geometry .sigmgr._PF:3 216x329+756+474
+wm geometry .sigmgr._PF:3 214x329+756+474
+wm geometry .sigmgr._PF:3 216x329+756+474
+wm geometry .sigmgr._PF:3 218x329+756+474
+wm geometry .sigmgr._PF:3 223x332+756+474
+wm geometry .sigmgr._PF:3 228x335+756+474
+wm geometry .sigmgr._PF:3 237x340+756+474
+wm geometry .sigmgr._PF:3 239x345+756+474
+wm geometry .sigmgr._PF:3 243x348+756+474
+wm geometry .sigmgr._PF:3 245x351+756+474
+wm geometry .sigmgr._PF:3 247x353+756+474
+wm geometry .sigmgr._PF:3 248x353+756+474
+wm geometry .sigmgr._PF:3 248x354+756+474
+wm geometry .sigmgr._PF:3 248x354+712+465
+wm geometry .sigmgr._PF:3 248x354+673+450
+wm geometry .sigmgr._PF:3 248x354+631+428
+wm geometry .sigmgr._PF:3 248x354+616+420
+wm geometry .sigmgr._PF:3 248x354+598+414
+wm geometry .sigmgr._PF:3 248x354+593+413
+wm geometry .sigmgr._PF:3 248x354+588+410
+wm geometry .sigmgr._PF:3 248x354+587+409
+wm geometry .sigmgr._PF:3 248x354+586+409
+wm geometry .sigmgr._PF:3 248x354+586+411
+wm geometry .sigmgr._PF:3 248x354+586+412
+wm geometry .sigmgr._PF:3 248x354+586+415
+wm geometry .sigmgr._PF:3 248x354+586+418
+wm geometry .sigmgr._PF:3 248x354+586+421
+wm geometry .sigmgr._PF:3 248x354+588+423
+wm geometry .sigmgr._PF:3 248x354+588+424
+wm geometry .sigmgr._PF:3 248x354+588+426
+wm geometry .sigmgr._PF:3 248x354+589+427
+wm geometry .sigmgr._PF:3 248x354+589+428
+wm geometry .sigmgr._PF:3 248x354+589+430
+pf:read PF:3 v(cin)
+# WF:3:1
+Graph addsignal WF:3:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:3 v(cout)
+# WF:3:2
+Graph addsignal WF:3:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:3 v(phi)
+# WF:3:3
+Graph addsignal WF:3:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+pf:read PF:3 v(rst)
+# WF:3:4
+Graph addsignal WF:3:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+pf:read PF:3 v(sout)
+# WF:3:5
+Graph addsignal WF:3:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal4
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry . 900x785+22+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+213+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+344+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+511+96
+Mdi:ArrangeIcons
+wm geometry . 900x785+600+101
+Mdi:ArrangeIcons
+wm geometry . 900x785+745+96
+Mdi:ArrangeIcons
+wm geometry . 900x785+817+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+826+95
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+825+93
+Mdi:ArrangeIcons
+wm geometry . 900x785+824+92
+Mdi:ArrangeIcons
+wm geometry . 900x785+821+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+819+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+816+91
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) step3_jayakishan.tr0}}
+Graph1 delsignal Signal0
+Graph1 delsignal Signal1
+Graph1 delsignal Signal2
+Graph1 delsignal Signal3
+Graph1 delsignal Signal4

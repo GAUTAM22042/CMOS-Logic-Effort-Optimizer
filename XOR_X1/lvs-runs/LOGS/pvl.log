@@ -1,0 +1,3109 @@
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /opt/cadence/pegasus/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /opt/cadence/pegasus/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /opt/cadence/pegasus/share/lib/itcl/3.4.1 /opt/cadence/pegasus/share/lib/tclxml/3.2 /opt/cadence/pegasus/share/lib/tcllib/1.18 /opt/cadence/pegasus/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/itcl/3.4.1 /opt/cadence/pegasus/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tclxml/3.2 /opt/cadence/pegasus/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tcllib/1.18
+ENV VAR: PEGASUS_PVL_LIBRARY = /opt/cadence/pegasus/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/pvl/tcl
+ENV VAR: PEGASUS_TVL_LIBRARY = /opt/cadence/pegasus/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/preproc/tcl
+ENV VAR: PEGASUS_LVS_DEVICE_DFM_LIBRARY = /opt/cadence/pegasus/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/lvs_device_dfm/tcl
+
+
+########################################################################
+Parsing Control File /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/pegasuslvsctl ...
+########################################################################
+TEXT_DEPTH -primary;
+VIRTUAL_CONNECT -colon no;
+VIRTUAL_CONNECT -semicolon_as_colon yes;
+VIRTUAL_CONNECT -report no;
+VIRTUAL_CONNECT -depth -primary;
+LVS_IGNORE_PORTS no;
+LVS_EXPAND_CELL_ON_ERROR no;
+LVS_BREAK_AMBIG_MAX 32;
+LVS_ABORT -softchk no;
+LVS_ABORT -supply_error no;
+LVS_FIND_SHORTS no;
+SCONNECT_UPPER_SHAPE_COUNT no;
+LVS_REPORT_FILE "XOR_X1.rep";
+LVS_REPORT_MAX 50 -mismatched_net_limit 100;
+LVS_RUN_ERC_CHECKS yes;
+LVS_REPORT_OPT -none;
+REPORT_SUMMARY -erc "XOR_X1.sum" -replace;
+MAX_RESULTS -erc 1000;
+RESULTS_DB -erc "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.erc_errors.ascii" -ascii;
+MASK_SVDB_DIR /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/svdb;
+SCHEMATIC_FORMAT cdl;
+SCHEMATIC_PATH "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.cdl";
+ABORT_ON_LAYOUT_ERROR yes;
+LAYOUT_FORMAT gdsii;
+LAYOUT_PATH "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.gds.gz";
+
+########################################################################
+Parsing Rule File /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/.technology.rul ...
+########################################################################
+TECHNOLOGY gpdk045 -ruleSet default -techLib /ece558_658/pdk/verification/pvtech.lib;
+WARNING: In technology 'gpdk045', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+[INFO] TECHNOLOGY: Rules file /ece558_658/pdk/verification/pvs/./pvlLVS.rul will be included after the remainder of the current rules are processed.
+[INFO] TECHNOLOGY gpdk045 -techLib /ece558_658/pdk/verification/pvtech.lib: End of additions.
+LVS_BLACK_BOX "pll_vco_indsym1p3";
+INPUT_SCALE 2000;
+GRID 5;
+UNIT -length u;
+TEXT_DEPTH -primary;
+[WARN]: TEXT_DEPTH at line 35 in file /ece558_658/pdk/verification/pvs/./pvlLVS.rul is skipped. It is set in control file.
+LAYOUT_PRESERVE_CASE -property yes;
+LAYER_DEF empty 999;
+LAYER_DEF BJTdum 1000;
+LAYER_MAP 15 -datatype 0 1000;
+LAYER_DEF Bondpad 1001;
+LAYER_MAP 36 -datatype 0 1001;
+LAYER_DEF Cap3dum 1002;
+LAYER_MAP 84 -datatype 0 1002;
+LAYER_DEF CapMetal 1003;
+LAYER_MAP 14 -datatype 0 1003;
+LAYER_DEF Capdum 1004;
+LAYER_MAP 12 -datatype 0 1004;
+LAYER_DEF Cont 1005;
+LAYER_MAP 6 -datatype 0 1005;
+LAYER_DEF DIOdummy 1006;
+LAYER_MAP 22 -datatype 0 1006;
+LAYER_DEF IND2dummy 1007;
+LAYER_MAP 17 -datatype 0 1007;
+LAYER_DEF INDdummy 1008;
+LAYER_MAP 16 -datatype 0 1008;
+LAYER_DEF M1Resdum 1009;
+LAYER_MAP 75 -datatype 0 1009;
+LAYER_DEF M2Resdum 1010;
+LAYER_MAP 76 -datatype 0 1010;
+LAYER_DEF M3Resdum 1011;
+LAYER_MAP 77 -datatype 0 1011;
+LAYER_DEF M4Resdum 1012;
+LAYER_MAP 78 -datatype 0 1012;
+LAYER_DEF M5Resdum 1013;
+LAYER_MAP 79 -datatype 0 1013;
+LAYER_DEF M6Resdum 1014;
+LAYER_MAP 80 -datatype 0 1014;
+LAYER_DEF M7Resdum 1015;
+LAYER_MAP 81 -datatype 0 1015;
+LAYER_DEF M8Resdum 1016;
+LAYER_MAP 82 -datatype 0 1016;
+LAYER_DEF M9Resdum 1017;
+LAYER_MAP 83 -datatype 0 1017;
+LAYER_DEF M10Resdum 1018;
+LAYER_MAP 93 -datatype 0 1018;
+LAYER_DEF M11Resdum 1019;
+LAYER_MAP 103 -datatype 0 1019;
+LAYER_DEF Metal1 1020;
+LAYER_MAP 7 -datatype -le 1 1020;
+LAYER_DEF Metal2 1021;
+LAYER_MAP 9 -datatype -le 1 1021;
+LAYER_DEF Metal3 1022;
+LAYER_MAP 11 -datatype -le 1 1022;
+LAYER_DEF Metal4 1023;
+LAYER_MAP 31 -datatype -le 1 1023;
+LAYER_DEF Metal5 1024;
+LAYER_MAP 33 -datatype -le 1 1024;
+LAYER_DEF Metal6 1025;
+LAYER_MAP 35 -datatype -le 1 1025;
+LAYER_DEF Metal7 1026;
+LAYER_MAP 38 -datatype -le 1 1026;
+LAYER_DEF Metal8 1027;
+LAYER_MAP 40 -datatype -le 1 1027;
+LAYER_DEF Metal9 1028;
+LAYER_MAP 42 -datatype -le 1 1028;
+LAYER_DEF Metal10 1029;
+LAYER_MAP 152 -datatype -le 1 1029;
+LAYER_DEF Metal11 1030;
+LAYER_MAP 162 -datatype -le 1 1030;
+LAYER_DEF NPN2dum 1031;
+LAYER_MAP 110 -datatype 0 1031;
+LAYER_DEF NPN5dum 1032;
+LAYER_MAP 111 -datatype 0 1032;
+LAYER_DEF NPN10dum 1033;
+LAYER_MAP 112 -datatype 0 1033;
+LAYER_DEF NPNdummy 1034;
+LAYER_MAP 20 -datatype 0 1034;
+LAYER_DEF Nburied 1035;
+LAYER_MAP 19 -datatype 0 1035;
+LAYER_DEF Nhvt 1036;
+LAYER_MAP 18 -datatype 0 1036;
+LAYER_DEF Nimp 1037;
+LAYER_MAP 4 -datatype 0 1037;
+LAYER_DEF Nlvt 1038;
+LAYER_MAP 26 -datatype 0 1038;
+LAYER_DEF Nwell 1039;
+LAYER_MAP 2 -datatype 0 1039;
+LAYER_DEF Nzvt 1040;
+LAYER_MAP 52 -datatype 0 1040;
+LAYER_DEF Oxide 1041;
+LAYER_MAP 1 -datatype 0 1041;
+LAYER_DEF Oxide_thk 1042;
+LAYER_MAP 24 -datatype 0 1042;
+LAYER_DEF PNPdummy 1043;
+LAYER_MAP 21 -datatype 0 1043;
+LAYER_DEF Phvt 1044;
+LAYER_MAP 23 -datatype 0 1044;
+LAYER_DEF Pimp 1045;
+LAYER_MAP 5 -datatype 0 1045;
+LAYER_DEF Plvt 1046;
+LAYER_MAP 27 -datatype 0 1046;
+LAYER_DEF Poly 1047;
+LAYER_MAP 3 -datatype 0 1047;
+LAYER_DEF Psub 1048;
+LAYER_MAP 25 -datatype 0 1048;
+LAYER_DEF ResWdum 1049;
+LAYER_MAP 71 -datatype 0 1049;
+LAYER_DEF Resdum 1050;
+LAYER_MAP 13 -datatype 0 1050;
+LAYER_DEF SiProt 1051;
+LAYER_MAP 72 -datatype 0 1051;
+LAYER_DEF Via1 1052;
+LAYER_MAP 8 -datatype 0 1052;
+LAYER_DEF Via2 1053;
+LAYER_MAP 10 -datatype 0 1053;
+LAYER_DEF Via3 1054;
+LAYER_MAP 30 -datatype 0 1054;
+LAYER_DEF Via4 1055;
+LAYER_MAP 32 -datatype 0 1055;
+LAYER_DEF Via5 1056;
+LAYER_MAP 34 -datatype 0 1056;
+LAYER_DEF Via6 1057;
+LAYER_MAP 37 -datatype 0 1057;
+LAYER_DEF Via7 1058;
+LAYER_MAP 39 -datatype 0 1058;
+LAYER_DEF Via8 1059;
+LAYER_MAP 41 -datatype 0 1059;
+LAYER_DEF Via9 1060;
+LAYER_MAP 151 -datatype 0 1060;
+LAYER_DEF Via10 1061;
+LAYER_MAP 161 -datatype 0 1061;
+LAYER_DEF text 1098;
+LAYER_MAP 63 -texttype 0 1098;
+TEXT_LAYER text;
+PORT -text_layer text;
+LAYER_DEF ind10_text 1062;
+LAYER_MAP 152 -texttype 0 1062;
+TEXT_LAYER ind10_text;
+PORT -text_layer ind10_text;
+LAYER_DEF ind11_text 1063;
+LAYER_MAP 162 -texttype 0 1063;
+TEXT_LAYER ind11_text;
+PORT -text_layer ind11_text;
+LAYER_DEF metal1_conn_text 1064;
+LAYER_MAP 7 -texttype 0 1064;
+TEXT_LAYER metal1_conn_text;
+PORT -text_layer metal1_conn_text;
+LAYER_DEF metal2_conn_text 1065;
+LAYER_MAP 9 -texttype 0 1065;
+TEXT_LAYER metal2_conn_text;
+PORT -text_layer metal2_conn_text;
+LAYER_DEF metal3_conn_text 1066;
+LAYER_MAP 11 -texttype 0 1066;
+TEXT_LAYER metal3_conn_text;
+PORT -text_layer metal3_conn_text;
+LAYER_DEF metal4_conn_text 1067;
+LAYER_MAP 31 -texttype 0 1067;
+TEXT_LAYER metal4_conn_text;
+PORT -text_layer metal4_conn_text;
+LAYER_DEF metal5_conn_text 1068;
+LAYER_MAP 33 -texttype 0 1068;
+TEXT_LAYER metal5_conn_text;
+PORT -text_layer metal5_conn_text;
+LAYER_DEF metal6_conn_text 1069;
+LAYER_MAP 35 -texttype 0 1069;
+TEXT_LAYER metal6_conn_text;
+PORT -text_layer metal6_conn_text;
+LAYER_DEF metal7_conn_text 1069;
+LAYER_MAP 38 -texttype 0 1069;
+TEXT_LAYER metal7_conn_text;
+PORT -text_layer metal7_conn_text;
+LAYER_DEF metal8_conn_text 1070;
+LAYER_MAP 40 -texttype 0 1070;
+TEXT_LAYER metal8_conn_text;
+PORT -text_layer metal8_conn_text;
+LAYER_DEF metal9_conn_text 1071;
+LAYER_MAP 42 -texttype 0 1071;
+TEXT_LAYER metal9_conn_text;
+PORT -text_layer metal9_conn_text;
+LAYER_DEF metal10_conn_text 1072;
+LAYER_MAP 152 -texttype 0 1072;
+TEXT_LAYER metal10_conn_text;
+PORT -text_layer metal10_conn_text;
+LAYER_DEF metal11_conn_text 1073;
+LAYER_MAP 162 -texttype 0 1073;
+TEXT_LAYER metal11_conn_text;
+PORT -text_layer metal11_conn_text;
+LAYER_DEF m1_label 1076;
+LAYER_MAP 7 -texttype 3 1076;
+TEXT_LAYER m1_label;
+PORT -text_layer m1_label;
+LAYER_DEF m2_label 1077;
+LAYER_MAP 9 -texttype 3 1077;
+TEXT_LAYER m2_label;
+PORT -text_layer m2_label;
+LAYER_DEF m3_label 1078;
+LAYER_MAP 11 -texttype 3 1078;
+TEXT_LAYER m3_label;
+PORT -text_layer m3_label;
+LAYER_DEF m4_label 1079;
+LAYER_MAP 31 -texttype 3 1079;
+TEXT_LAYER m4_label;
+PORT -text_layer m4_label;
+LAYER_DEF m5_label 1080;
+LAYER_MAP 33 -texttype 3 1080;
+TEXT_LAYER m5_label;
+PORT -text_layer m5_label;
+LAYER_DEF m6_label 1081;
+LAYER_MAP 35 -texttype 3 1081;
+TEXT_LAYER m6_label;
+PORT -text_layer m6_label;
+LAYER_DEF m7_label 1082;
+LAYER_MAP 38 -texttype 3 1082;
+TEXT_LAYER m7_label;
+PORT -text_layer m7_label;
+LAYER_DEF m8_label 1083;
+LAYER_MAP 40 -texttype 3 1083;
+TEXT_LAYER m8_label;
+PORT -text_layer m8_label;
+LAYER_DEF m9_label 1084;
+LAYER_MAP 42 -texttype 3 1084;
+TEXT_LAYER m9_label;
+PORT -text_layer m9_label;
+LAYER_DEF m10_label 1085;
+LAYER_MAP 152 -texttype 3 1085;
+TEXT_LAYER m10_label;
+PORT -text_layer m10_label;
+LAYER_DEF m11_label 1086;
+LAYER_MAP 162 -texttype 3 1086;
+TEXT_LAYER m11_label;
+PORT -text_layer m11_label;
+LAYER_DEF m1_pin 1087;
+LAYER_MAP 7 -texttype 1 1087;
+TEXT_LAYER m1_pin;
+PORT -text_layer m1_pin;
+LAYER_DEF m2_pin 1088;
+LAYER_MAP 9 -texttype 1 1088;
+TEXT_LAYER m2_pin;
+PORT -text_layer m2_pin;
+LAYER_DEF m3_pin 1089;
+LAYER_MAP 11 -texttype 1 1089;
+TEXT_LAYER m3_pin;
+PORT -text_layer m3_pin;
+LAYER_DEF m4_pin 1090;
+LAYER_MAP 31 -texttype 1 1090;
+TEXT_LAYER m4_pin;
+PORT -text_layer m4_pin;
+LAYER_DEF m5_pin 1091;
+LAYER_MAP 33 -texttype 1 1091;
+TEXT_LAYER m5_pin;
+PORT -text_layer m5_pin;
+LAYER_DEF m6_pin 1092;
+LAYER_MAP 35 -texttype 1 1092;
+TEXT_LAYER m6_pin;
+PORT -text_layer m6_pin;
+LAYER_DEF m7_pin 1093;
+LAYER_MAP 38 -texttype 1 1093;
+TEXT_LAYER m7_pin;
+PORT -text_layer m7_pin;
+LAYER_DEF m8_pin 1094;
+LAYER_MAP 40 -texttype 1 1094;
+TEXT_LAYER m8_pin;
+PORT -text_layer m8_pin;
+LAYER_DEF m9_pin 1095;
+LAYER_MAP 42 -texttype 1 1095;
+TEXT_LAYER m9_pin;
+PORT -text_layer m9_pin;
+LAYER_DEF m10_pin 1096;
+LAYER_MAP 152 -texttype 1 1096;
+TEXT_LAYER m10_pin;
+PORT -text_layer m10_pin;
+LAYER_DEF m11_pin 1097;
+LAYER_MAP 162 -texttype 1 1097;
+TEXT_LAYER m11_pin;
+PORT -text_layer m11_pin;
+EXTENT -outputlayer bulk;
+AND NPN2dum NPNdummy -outputlayer _npn2;
+AND NPN5dum NPNdummy -outputlayer _npn5;
+AND NPN10dum NPNdummy -outputlayer _npn10;
+AND M1Resdum Metal1 -outputlayer _resm1;
+AND M2Resdum Metal2 -outputlayer _resm2;
+AND M3Resdum Metal3 -outputlayer _resm3;
+AND M4Resdum Metal4 -outputlayer _resm4;
+AND M5Resdum Metal5 -outputlayer _resm5;
+AND M6Resdum Metal6 -outputlayer _resm6;
+AND M7Resdum Metal7 -outputlayer _resm7;
+AND M8Resdum Metal8 -outputlayer _resm8;
+AND M9Resdum Metal9 -outputlayer _resm9;
+AND M10Resdum Metal10 -outputlayer _resm10;
+AND M11Resdum Metal11 -outputlayer _resm11;
+AND Bondpad Metal9 -outputlayer bp_tap;
+AND Cont Poly -outputlayer cont_poly;
+AND INDdummy Metal10 -outputlayer ind10;
+NOT Metal1 M1Resdum -outputlayer metal1_conn;
+NOT Metal2 M2Resdum -outputlayer metal2_conn;
+NOT Metal3 M3Resdum -outputlayer metal3_conn;
+NOT Metal4 M4Resdum -outputlayer metal4_conn;
+NOT Metal5 M5Resdum -outputlayer metal5_conn;
+NOT Metal6 M6Resdum -outputlayer metal6_conn;
+NOT Metal7 M7Resdum -outputlayer metal7_conn;
+NOT Metal8 M8Resdum -outputlayer metal8_conn;
+NOT Metal9 M9Resdum -outputlayer metal9_conn;
+AND Nimp Oxide -outputlayer nactive;
+AND Nburied Nwell -outputlayer nb_tap;
+NOT Nwell ResWdum -outputlayer nwell_conn;
+AND Oxide Pimp -outputlayer pactive;
+NOT pactive Poly -outputlayer pdiff;
+NOT pdiff Resdum -outputlayer pdiff_conn;
+AND Cont pdiff_conn -outputlayer cont_pdiff;
+NOT Poly Resdum -outputlayer poly_conn;
+NOT nactive poly_conn -outputlayer ndiff;
+NOT ndiff Resdum -outputlayer ndiff_conn;
+AND Cont ndiff_conn -outputlayer cont_ndiff;
+AND CapMetal Via10 -outputlayer via10_cap;
+NOT Via10 CapMetal -outputlayer via10_nocap;
+AND Nwell SiProt -outputlayer L40182;
+AND L40182 ResWdum -outputlayer _resnwoxide;
+SELECT -interact -not Nwell SiProt -outputlayer L25544;
+AND L25544 ResWdum -outputlayer _resnwsti;
+AND BJTdum pdiff_conn -outputlayer L68803;
+AREA L68803 -eq 4 -outputlayer _vpnp2;
+AREA L68803 -eq 25 -outputlayer _vpnp5;
+AREA L68803 -eq 100 -outputlayer _vpnp10;
+AND INDdummy Metal11 -outputlayer L13465;
+SIZE L13465 -by 0.01 -overunder -outputlayer ind11;
+SELECT -enclose INDdummy ind11 -lt 2 -outputlayer _ind_a;
+SELECT -interact -not INDdummy _ind_a -outputlayer _ind_s1;
+SELECT -enclose _ind_s1 ind11 -outputlayer _ind_s;
+NOT ind10 ind11 -outputlayer ind_nr;
+OR INDdummy M10Resdum -outputlayer L17074;
+NOT Metal10 L17074 -outputlayer metal10_conn;
+OR INDdummy M11Resdum -outputlayer L86607;
+NOT Metal11 L86607 -outputlayer metal11_conn;
+AND metal10_conn metal11_conn -outputlayer L92042;
+SELECT -interact CapMetal L92042 -outputlayer _mimcap;
+AND NPNdummy ndiff_conn -outputlayer L61645;
+NOT L61645 Nwell -outputlayer npn_emit;
+AND Psub pdiff_conn -outputlayer L98077;
+AND L98077 PNPdummy -outputlayer pnp_emit;
+OR CapMetal INDdummy -outputlayer L47735;
+NOT Via10 L47735 -outputlayer via10_nodev;
+ANGLE -not IND2dummy -ltgt 0 90 -outputlayer L57315;
+EDGE_EXPAND L57315 -outside_by 0.01 -outputlayer L71536;
+NOT L71536 IND2dummy -outputlayer L93547;
+SELECT -inside L93547 ind11 -outputlayer ind2_width;
+AND _ind_a ind2_width -outputlayer inda_width;
+AND _ind_s ind2_width -outputlayer inds_width;
+OR ind10 ind11 -outputlayer L83584;
+HOLES L83584 -inner -outputlayer L87155;
+VERTEX L87155 -lt 14 -outputlayer ind_hole;
+AND Nwell ndiff_conn -outputlayer L74405;
+AND NPNdummy Psub -outputlayer L28555;
+NOT L74405 L28555 -outputlayer ntap;
+NOT pdiff_conn Nwell -outputlayer L65704;
+NOT L65704 PNPdummy -outputlayer ptap;
+AND DIOdummy Oxide -outputlayer L54696;
+AND L54696 Oxide_thk -outputlayer L77738;
+AND L77738 Nzvt -outputlayer L73169;
+NOT L73169 Nwell -outputlayer _ndio_2v_nvt;
+NOT L54696 Oxide_thk -outputlayer L97435;
+AND L97435 Nhvt -outputlayer L22301;
+NOT L22301 Nwell -outputlayer _ndio_hvt;
+AND L97435 Nlvt -outputlayer L18457;
+NOT L18457 Nwell -outputlayer _ndio_lvt;
+AND L97435 Nzvt -outputlayer L5003;
+NOT L5003 Nwell -outputlayer _ndio_nvt;
+AND L97435 Phvt -outputlayer L62719;
+AND L62719 Nwell -outputlayer _pdio_hvt;
+AND L97435 Plvt -outputlayer L58875;
+AND L58875 Nwell -outputlayer _pdio_lvt;
+NOT Oxide Oxide_thk -outputlayer L28394;
+AND L28394 Poly -outputlayer L66375;
+AND L66375 Pimp -outputlayer L29970;
+AND L29970 Phvt -outputlayer _pmos1v_hvt;
+AND L29970 Plvt -outputlayer _pmos1v_lvt;
+AND SiProt nactive -outputlayer L18758;
+AND L18758 Resdum -outputlayer L23316;
+NOT L23316 Nwell -outputlayer _resnsndiff;
+AND Poly SiProt -outputlayer L5240;
+AND L5240 Nimp -outputlayer L1378;
+AND L1378 Resdum -outputlayer L66582;
+NOT L66582 Nwell -outputlayer _resnsnpoly;
+AND L66582 Nwell -outputlayer _resnsnpoly_nw;
+AND SiProt pactive -outputlayer L88604;
+AND L88604 Resdum -outputlayer L197;
+AND L197 Nwell -outputlayer _resnspdiff;
+AND L5240 Pimp -outputlayer L60960;
+AND L60960 Resdum -outputlayer L4294;
+NOT L4294 Nwell -outputlayer _resnsppoly;
+AND L4294 Nwell -outputlayer _resnsppoly_nw;
+SELECT -interact -not nactive SiProt -outputlayer L62496;
+AND L62496 Resdum -outputlayer L426;
+NOT L426 Nwell -outputlayer _ressndiff;
+NOT Poly SiProt -outputlayer L90381;
+AND L90381 Nimp -outputlayer L49196;
+AND L49196 Resdum -outputlayer L17878;
+NOT L17878 Nwell -outputlayer _ressnpoly;
+AND L17878 Nwell -outputlayer _ressnpoly_nw;
+SELECT -interact -not pactive SiProt -outputlayer L79746;
+AND L79746 Resdum -outputlayer L22728;
+AND L22728 Nwell -outputlayer _resspdiff;
+AND L90381 Pimp -outputlayer L8778;
+AND L8778 Resdum -outputlayer L54937;
+NOT L54937 Nwell -outputlayer _ressppoly;
+AND L54937 Nwell -outputlayer _ressppoly_nw;
+AND ind10 ind11 -outputlayer L54420;
+AND L54420 _ind_s -outputlayer L42364;
+SELECT -touch L42364 ind_hole -outputlayer L12760;
+SELECT -interact L12760 Via10 -outputlayer ind_ct;
+AND Via10 _ind_s -outputlayer L13648;
+NOT L13648 ind_ct -outputlayer ind_via_diva;
+AND Oxide Oxide_thk -outputlayer L24975;
+AND L24975 Poly -outputlayer L98842;
+AND L98842 Pimp -outputlayer L73768;
+OR Cap3dum Capdum -outputlayer L8948;
+NOT L73768 L8948 -outputlayer _pmos2v;
+ANGLE -not ind_ct -ltgt 0 90 -outputlayer L65767;
+EDGE_EXPAND L65767 -outside_by 0.1 -outputlayer L12066;
+AND L12066 ind10 -outputlayer L64022;
+EDGE_BOOLEAN -coincident_only L64022 ind_hole -outside -outputlayer L30099;
+EDGE_EXPAND L30099 -outside_by 101 -outputlayer L43958;
+AND L43958 ind_hole -outputlayer ind_rad;
+NOT bulk nb_tap -outputlayer L14174;
+SIZE Psub -by -0.001 -outputlayer L86601;
+NOT Psub L86601 -outputlayer L7495;
+NOT L14174 L7495 -outputlayer psubstrate;
+AND L66375 Nimp -outputlayer L89552;
+AND L89552 Nzvt -outputlayer L70180;
+NOT L70180 Nhvt -outputlayer L21328;
+NOT L21328 Nburied -outputlayer _nmos_12_native;
+AND L98842 Nimp -outputlayer L14186;
+AND L14186 Nzvt -outputlayer L15681;
+NOT L15681 Nhvt -outputlayer L10869;
+NOT L10869 Nburied -outputlayer _nmos_25_native;
+AND L97435 Pimp -outputlayer L62041;
+NOT L62041 Plvt -outputlayer L28017;
+NOT L28017 Phvt -outputlayer L17166;
+AND L17166 Nwell -outputlayer _pdio;
+AND L77738 Pimp -outputlayer L16131;
+NOT L16131 Plvt -outputlayer L48360;
+NOT L48360 Phvt -outputlayer L917;
+AND L917 Nwell -outputlayer _pdio_2v;
+SIZE IND2dummy -by 5 -outputlayer L70261;
+SIZE INDdummy -by -1 -outputlayer L66884;
+NOT L70261 L66884 -outputlayer L26372;
+AND INDdummy L26372 -outputlayer L19884;
+NOT L19884 ind11 -outputlayer L73859;
+EDGE_BOOLEAN -coincident_only ind11 L73859 -outside -outputlayer L50941;
+EDGE_EXPAND L50941 -inside_by 0.001 -outputlayer L12819;
+SELECT -interact ind11 L12819 -outputlayer L33493;
+SELECT -interact L73859 L33493 -eq 2 -outputlayer ind2_sp1;
+SELECT -touch ind_nr IND2dummy -outputlayer L69850;
+ANGLE -not L69850 -ltgt 0 90 -outputlayer L78036;
+EDGE_EXPAND L78036 -outside_by 0.01 -outputlayer L91609;
+NOT L91609 ind11 -outputlayer L15138;
+NOT L15138 ind10 -outputlayer L37576;
+VERTEX L37576 -lt 5 -outputlayer ind2_space;
+AND _ind_a ind_hole -outputlayer L69131;
+SIZE L69131 -by 0.1 -outputlayer L1472;
+EDGE_EXPAND L1472 -inside_by 0.1 -outputlayer L82556;
+NOT L1472 L69131 -outputlayer L62333;
+NOT L62333 L82556 -outputlayer L28951;
+ANGLE -not L28951 -ltgt 0 90 -outputlayer L87029;
+EDGE_EXPAND L87029 -outside_by 101 -outputlayer L27296;
+OR L27296 L28951 -outputlayer L13931;
+AND L13931 ind_hole -outputlayer L10222;
+ANGLE L10222 -ltgt 0 90 -outputlayer L25455;
+EDGE_EXPAND L25455 -inside_by 0.001 -outputlayer L96841;
+SELECT -interact -not L10222 L96841 -outputlayer L68829;
+AREA L68829 -gt 0.8 -outputlayer inda_rad;
+AND L97435 Nimp -outputlayer L21623;
+NOT L21623 Nlvt -outputlayer L12020;
+NOT L12020 Nhvt -outputlayer L4397;
+NOT L4397 Nzvt -outputlayer L8315;
+NOT L8315 Nwell -outputlayer _ndio;
+AND L77738 Nimp -outputlayer L56549;
+NOT L56549 Nlvt -outputlayer L18325;
+NOT L18325 Nhvt -outputlayer L87119;
+NOT L87119 Nzvt -outputlayer L50344;
+NOT L50344 Nwell -outputlayer _ndio_2v;
+AND L89552 Nhvt -outputlayer L87478;
+OR Nlvt Nzvt -outputlayer L49009;
+OR L49009 Nburied -outputlayer L13756;
+NOT L87478 L13756 -outputlayer _nmos1v_hvt;
+AND L89552 Nlvt -outputlayer L83634;
+OR Nhvt Nzvt -outputlayer L25035;
+OR L25035 Nburied -outputlayer L68361;
+NOT L83634 L68361 -outputlayer _nmos1v_lvt;
+NOT L89552 Nzvt -outputlayer L25441;
+NOT L25441 Nhvt -outputlayer L70734;
+NOT L70734 Nburied -outputlayer L8530;
+AND Capdum L8530 -outputlayer _nmoscap1v;
+NOT L14186 Nzvt -outputlayer L55994;
+NOT L55994 Nhvt -outputlayer L55604;
+NOT L55604 Nburied -outputlayer L64343;
+AND Capdum L64343 -outputlayer _nmoscap2v;
+OR Phvt Plvt -outputlayer L20537;
+OR Capdum L20537 -outputlayer L86632;
+OR Cap3dum L86632 -outputlayer L85139;
+NOT L29970 L85139 -outputlayer _pmos1v;
+NOT L29970 Nzvt -outputlayer L5017;
+NOT L5017 Nhvt -outputlayer L28655;
+NOT L28655 Nburied -outputlayer L38143;
+AND Capdum L38143 -outputlayer _pmoscap1v;
+NOT L73768 Nzvt -outputlayer L4203;
+NOT L4203 Nhvt -outputlayer L16207;
+NOT L16207 Nburied -outputlayer L72451;
+AND Capdum L72451 -outputlayer _pmoscap2v;
+NOT L64343 L8948 -outputlayer _nmos_25;
+OR L25035 Nlvt -outputlayer L40124;
+OR L40124 Nburied -outputlayer L71361;
+OR Capdum L71361 -outputlayer L32193;
+OR Cap3dum L32193 -outputlayer L26526;
+NOT L89552 L26526 -outputlayer _nmos1v;
+CONNECT Bondpad metal11_conn -by bp_tap;
+CONNECT ind11 metal11_conn;
+CONNECT metal11_conn CapMetal -by via10_cap;
+CONNECT metal11_conn metal10_conn -by via10_nocap;
+CONNECT ind11 ind10 -by ind_via_diva;
+CONNECT metal11_conn metal10_conn -by via10_nodev;
+CONNECT ind_ct ind10;
+CONNECT ind10 metal10_conn;
+CONNECT metal10_conn metal9_conn -by Via9;
+CONNECT metal9_conn metal8_conn -by Via8;
+CONNECT metal8_conn metal7_conn -by Via7;
+CONNECT metal7_conn metal6_conn -by Via6;
+CONNECT metal6_conn metal5_conn -by Via5;
+CONNECT metal5_conn metal4_conn -by Via4;
+CONNECT metal4_conn metal3_conn -by Via3;
+CONNECT metal3_conn metal2_conn -by Via2;
+CONNECT metal2_conn metal1_conn -by Via1;
+CONNECT metal1_conn poly_conn -by cont_poly;
+CONNECT metal1_conn pdiff_conn -by cont_pdiff;
+CONNECT metal1_conn npn_emit -by cont_ndiff;
+CONNECT metal1_conn ndiff_conn -by cont_ndiff;
+CONNECT metal1_conn pnp_emit -by cont_pdiff;
+SCONNECT pdiff_conn psubstrate -by ptap;
+LVS_SOFTCHK psubstrate -type contact;
+SCONNECT ndiff_conn nwell_conn -by ntap;
+LVS_SOFTCHK nwell_conn -type contact;
+SCONNECT nwell_conn Nburied -by nb_tap;
+LVS_SOFTCHK Nburied -type contact;
+ATTACH ind11_text ind11;
+ATTACH metal11_conn_text metal11_conn;
+ATTACH ind11_text ind_ct;
+ATTACH ind10_text ind_ct;
+ATTACH ind10_text ind10;
+ATTACH metal10_conn_text metal10_conn;
+ATTACH metal9_conn_text metal9_conn;
+ATTACH metal8_conn_text metal8_conn;
+ATTACH metal7_conn_text metal7_conn;
+ATTACH metal6_conn_text metal6_conn;
+ATTACH metal5_conn_text metal5_conn;
+ATTACH metal4_conn_text metal4_conn;
+ATTACH metal3_conn_text metal3_conn;
+ATTACH metal2_conn_text metal2_conn;
+ATTACH metal1_conn_text metal1_conn;
+ATTACH m1_label metal1_conn;
+ATTACH m2_label metal2_conn;
+ATTACH m3_label metal3_conn;
+ATTACH m4_label metal4_conn;
+ATTACH m5_label metal5_conn;
+ATTACH m6_label metal6_conn;
+ATTACH m7_label metal7_conn;
+ATTACH m8_label metal8_conn;
+ATTACH m9_label metal9_conn;
+ATTACH m10_label metal10_conn;
+ATTACH m11_label metal11_conn;
+ATTACH m1_pin metal1_conn;
+ATTACH m2_pin metal2_conn;
+ATTACH m3_pin metal3_conn;
+ATTACH m4_pin metal4_conn;
+ATTACH m5_pin metal5_conn;
+ATTACH m6_pin metal6_conn;
+ATTACH m7_pin metal7_conn;
+ATTACH m8_pin metal8_conn;
+ATTACH m9_pin metal9_conn;
+ATTACH m10_pin metal10_conn;
+ATTACH m11_pin metal11_conn;
+DEVICE M ( g45n1svt ) _nmos1v poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45n1svt < nactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _nmos1v , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmos1v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( nactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _nmos1v , psubstrate , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _nmos1v , psubstrate , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45n1hvt ) _nmos1v_hvt poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45n1hvt < nactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _nmos1v_hvt , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmos1v_hvt ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( nactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _nmos1v_hvt , psubstrate , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _nmos1v_hvt , psubstrate , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45n1lvt ) _nmos1v_lvt poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45n1lvt < nactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _nmos1v_lvt , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmos1v_lvt ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( nactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _nmos1v_lvt , psubstrate , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _nmos1v_lvt , psubstrate , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45n1nvt ) _nmos_12_native poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45n1nvt < nactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _nmos_12_native , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmos_12_native ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( nactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _nmos_12_native , psubstrate , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _nmos_12_native , psubstrate , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45n2svt ) _nmos_25 poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45n2svt < nactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _nmos_25 , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmos_25 ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( nactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _nmos_25 , psubstrate , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _nmos_25 , psubstrate , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45n2nvt ) _nmos_25_native poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45n2nvt < nactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _nmos_25_native , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmos_25_native ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( nactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _nmos_25_native , psubstrate , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _nmos_25_native , psubstrate , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45ncap1 ) _nmoscap1v poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45ncap1 [ property w , l , ad , as , pd , ps , fw 
+ width = perim_co ( _nmoscap1v , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmoscap1v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ ];
+DEVICE M ( g45ncap2 ) _nmoscap2v poly_conn ( G ) ndiff_conn ( S ) ndiff_conn ( D ) psubstrate ( B ) ( S D ) -model g45ncap2 [ property w , l , ad , as , pd , ps , fw 
+ width = perim_co ( _nmoscap2v , ndiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _nmoscap2v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ ];
+DEVICE M ( g45p1svt ) _pmos1v poly_conn ( G ) pdiff_conn ( S ) pdiff_conn ( D ) nwell_conn ( B ) ( S D ) -model g45p1svt < pactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _pmos1v , pdiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _pmos1v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( pactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _pmos1v , nwell_conn , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _pmos1v , nwell_conn , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45p1hvt ) _pmos1v_hvt poly_conn ( G ) pdiff_conn ( S ) pdiff_conn ( D ) nwell_conn ( B ) ( S D ) -model g45p1hvt < pactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _pmos1v_hvt , pdiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _pmos1v_hvt ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( pactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _pmos1v_hvt , nwell_conn , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _pmos1v_hvt , nwell_conn , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45p1lvt ) _pmos1v_lvt poly_conn ( G ) pdiff_conn ( S ) pdiff_conn ( D ) nwell_conn ( B ) ( S D ) -model g45p1lvt < pactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _pmos1v_lvt , pdiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _pmos1v_lvt ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( pactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _pmos1v_lvt , nwell_conn , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _pmos1v_lvt , nwell_conn , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45p2svt ) _pmos2v poly_conn ( G ) pdiff_conn ( S ) pdiff_conn ( D ) nwell_conn ( B ) ( S D ) -model g45p2svt < pactive > [ property w , l , ad , as , pd , ps , sa , sb , sca , scb , scc , fw 
+ width = perim_co ( _pmos2v , pdiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _pmos2v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ s = ENCLOSURE_VECTOR ( pactive , 2 ) 
+ sw = SUM ( s::w ) 
+ sa = SUM ( s::a * ( s::w / sw ) ) 
+ sb = SUM ( s::b * ( s::w / sw ) ) 
+ sch = ENCLOSURE_PERPENDICULAR ( _pmos2v , nwell_conn , S , 1 ) 
+ scv = ENCLOSURE_PARALLEL ( _pmos2v , nwell_conn , S , 1 ) 
+ sca = TVF_NUM_FUN ( "calc_sca" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scb = TVF_NUM_FUN ( "calc_scb" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ scc = TVF_NUM_FUN ( "calc_scc" , "wpe_procedure" , sch , scv , w , l , 1 ) 
+ ];
+DEVICE M ( g45pcap1 ) _pmoscap1v poly_conn ( G ) pdiff_conn ( S ) pdiff_conn ( D ) nwell_conn ( B ) ( S D ) -model g45pcap1 [ property w , l , ad , as , pd , ps , fw 
+ width = perim_co ( _pmoscap1v , pdiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _pmoscap1v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ ];
+DEVICE M ( g45pcap2 ) _pmoscap2v poly_conn ( G ) pdiff_conn ( S ) pdiff_conn ( D ) nwell_conn ( B ) ( S D ) -model g45pcap2 [ property w , l , ad , as , pd , ps , fw 
+ width = perim_co ( _pmoscap2v , pdiff_conn ) / 2 
+ w = width 
+ fw = width 
+ l = area ( _pmoscap2v ) / width 
+ ad = area ( D ) 
+ as = area ( S ) 
+ pd = perimeter ( D ) 
+ ps = perimeter ( S ) 
+ ];
+LVS_REDUCE_DEVICE M -parallel yes [ TOLERANCE l 0 w 0 
+ effective l , w 
+ l = sum ( l ) / count ( ) 
+ w = sum ( w ) 
+ ];
+LVS_CHECK_PROPERTY M l l -tolerance 0;
+LVS_CHECK_PROPERTY M w w -tolerance 2;
+DEVICE R ( g45rm1 ) _resm1 metal1_conn ( PLUS ) metal1_conn ( MINUS ) ( PLUS MINUS ) -model g45rm1 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm1 , metal1_conn ) / 2 
+ length = perim_out ( _resm1 , metal1_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm1 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm1 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm2 ) _resm2 metal2_conn ( PLUS ) metal2_conn ( MINUS ) ( PLUS MINUS ) -model g45rm2 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm2 , metal2_conn ) / 2 
+ length = perim_out ( _resm2 , metal2_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm2 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm2 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm3 ) _resm3 metal3_conn ( PLUS ) metal3_conn ( MINUS ) ( PLUS MINUS ) -model g45rm3 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm3 , metal3_conn ) / 2 
+ length = perim_out ( _resm3 , metal3_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm3 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm3 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm4 ) _resm4 metal4_conn ( PLUS ) metal4_conn ( MINUS ) ( PLUS MINUS ) -model g45rm4 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm4 , metal4_conn ) / 2 
+ length = perim_out ( _resm4 , metal4_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm4 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm4 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm5 ) _resm5 metal5_conn ( PLUS ) metal5_conn ( MINUS ) ( PLUS MINUS ) -model g45rm5 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm5 , metal5_conn ) / 2 
+ length = perim_out ( _resm5 , metal5_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm5 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm5 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm6 ) _resm6 metal6_conn ( PLUS ) metal6_conn ( MINUS ) ( PLUS MINUS ) -model g45rm6 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm6 , metal6_conn ) / 2 
+ length = perim_out ( _resm6 , metal6_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm6 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm6 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm7 ) _resm7 metal7_conn ( PLUS ) metal7_conn ( MINUS ) ( PLUS MINUS ) -model g45rm7 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm7 , metal7_conn ) / 2 
+ length = perim_out ( _resm7 , metal7_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm7 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm7 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm8 ) _resm8 metal8_conn ( PLUS ) metal8_conn ( MINUS ) ( PLUS MINUS ) -model g45rm8 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm8 , metal8_conn ) / 2 
+ length = perim_out ( _resm8 , metal8_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm8 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm8 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm9 ) _resm9 metal9_conn ( PLUS ) metal9_conn ( MINUS ) ( PLUS MINUS ) -model g45rm9 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm9 , metal9_conn ) / 2 
+ length = perim_out ( _resm9 , metal9_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm9 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm9 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm10 ) _resm10 metal10_conn ( PLUS ) metal10_conn ( MINUS ) ( PLUS MINUS ) -model g45rm10 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm10 , metal10_conn ) / 2 
+ length = perim_out ( _resm10 , metal10_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm10 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm10 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rm11 ) _resm11 metal11_conn ( PLUS ) metal11_conn ( MINUS ) ( PLUS MINUS ) -model g45rm11 [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resm11 , metal11_conn ) / 2 
+ length = perim_out ( _resm11 , metal11_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resm11 ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resm11 ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rsnd ) _ressndiff ndiff_conn ( PLUS ) ndiff_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rsnd [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _ressndiff , ndiff_conn ) / 2 
+ length = perim_out ( _ressndiff , ndiff_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _ressndiff ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _ressndiff ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnsnd ) _resnsndiff ndiff_conn ( PLUS ) ndiff_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rnsnd [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnsndiff , ndiff_conn ) / 2 
+ length = perim_out ( _resnsndiff , ndiff_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnsndiff ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnsndiff ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rsnp ) _ressnpoly poly_conn ( PLUS ) poly_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rsnp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _ressnpoly , poly_conn ) / 2 
+ length = perim_out ( _ressnpoly , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _ressnpoly ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _ressnpoly ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rsnp ) _ressnpoly_nw poly_conn ( PLUS ) poly_conn ( MINUS ) nwell_conn ( B ) ( PLUS MINUS ) -model g45rsnp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _ressnpoly_nw , poly_conn ) / 2 
+ length = perim_out ( _ressnpoly_nw , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _ressnpoly_nw ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _ressnpoly_nw ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnsnp ) _resnsnpoly poly_conn ( PLUS ) poly_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rnsnp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnsnpoly , poly_conn ) / 2 
+ length = perim_out ( _resnsnpoly , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnsnpoly ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnsnpoly ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnsnp ) _resnsnpoly_nw poly_conn ( PLUS ) poly_conn ( MINUS ) nwell_conn ( B ) ( PLUS MINUS ) -model g45rnsnp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnsnpoly_nw , poly_conn ) / 2 
+ length = perim_out ( _resnsnpoly_nw , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnsnpoly_nw ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnsnpoly_nw ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rspd ) _resspdiff pdiff_conn ( PLUS ) pdiff_conn ( MINUS ) nwell_conn ( B ) ( PLUS MINUS ) -model g45rspd [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resspdiff , pdiff_conn ) / 2 
+ length = perim_out ( _resspdiff , pdiff_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resspdiff ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resspdiff ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnspd ) _resnspdiff pdiff_conn ( PLUS ) pdiff_conn ( MINUS ) nwell_conn ( B ) ( PLUS MINUS ) -model g45rnspd [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnspdiff , pdiff_conn ) / 2 
+ length = perim_out ( _resnspdiff , pdiff_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnspdiff ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnspdiff ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rspp ) _ressppoly poly_conn ( PLUS ) poly_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rspp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _ressppoly , poly_conn ) / 2 
+ length = perim_out ( _ressppoly , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _ressppoly ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _ressppoly ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rspp ) _ressppoly_nw poly_conn ( PLUS ) poly_conn ( MINUS ) nwell_conn ( B ) ( PLUS MINUS ) -model g45rspp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _ressppoly_nw , poly_conn ) / 2 
+ length = perim_out ( _ressppoly_nw , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _ressppoly_nw ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _ressppoly_nw ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnspp ) _resnsppoly poly_conn ( PLUS ) poly_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rnspp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnsppoly , poly_conn ) / 2 
+ length = perim_out ( _resnsppoly , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnsppoly ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnsppoly ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnspp ) _resnsppoly_nw poly_conn ( PLUS ) poly_conn ( MINUS ) nwell_conn ( B ) ( PLUS MINUS ) -model g45rnspp [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnsppoly_nw , poly_conn ) / 2 
+ length = perim_out ( _resnsppoly_nw , poly_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnsppoly_nw ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnsppoly_nw ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnws ) _resnwsti nwell_conn ( PLUS ) nwell_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rnws [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnwsti , nwell_conn ) / 2 
+ length = perim_out ( _resnwsti , nwell_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnwsti ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnwsti ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE R ( g45rnwo ) _resnwoxide nwell_conn ( PLUS ) nwell_conn ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45rnwo [ property w , effW , l , effL , segL , segW 
+ width = perim_co ( _resnwoxide , nwell_conn ) / 2 
+ length = perim_out ( _resnwoxide , nwell_conn ) / 2 
+ w = width 
+ effW = width 
+ l = ( length - ( 0.45 * bends ( _resnwoxide ) * width ) ) 
+ effL = ( length - ( 0.45 * bends ( _resnwoxide ) * width ) ) 
+ segW = width 
+ segL = l 
+ ];
+DEVICE D ( g45nd1svt ) _ndio psubstrate ( PLUS ) ndiff_conn ( MINUS ) -model g45nd1svt [ property area , pj 
+ area = area ( _ndio ) 
+ pj = perimeter ( _ndio ) 
+ ];
+DEVICE D ( g45nd1lvt ) _ndio_lvt psubstrate ( PLUS ) ndiff_conn ( MINUS ) -model g45nd1lvt [ property area , pj 
+ area = area ( _ndio_lvt ) 
+ pj = perimeter ( _ndio_lvt ) 
+ ];
+DEVICE D ( g45nd1hvt ) _ndio_hvt psubstrate ( PLUS ) ndiff_conn ( MINUS ) -model g45nd1hvt [ property area , pj 
+ area = area ( _ndio_hvt ) 
+ pj = perimeter ( _ndio_hvt ) 
+ ];
+DEVICE D ( g45nd1nvt ) _ndio_nvt psubstrate ( PLUS ) ndiff_conn ( MINUS ) -model g45nd1nvt [ property area , pj 
+ area = area ( _ndio_nvt ) 
+ pj = perimeter ( _ndio_nvt ) 
+ ];
+DEVICE D ( g45nd2svt ) _ndio_2v psubstrate ( PLUS ) ndiff_conn ( MINUS ) -model g45nd2svt [ property area , pj 
+ area = area ( _ndio_2v ) 
+ pj = perimeter ( _ndio_2v ) 
+ ];
+DEVICE D ( g45nd2nvt ) _ndio_2v_nvt psubstrate ( PLUS ) ndiff_conn ( MINUS ) -model g45nd2nvt [ property area , pj 
+ area = area ( _ndio_2v_nvt ) 
+ pj = perimeter ( _ndio_2v_nvt ) 
+ ];
+DEVICE D ( g45pd1svt ) _pdio pdiff_conn ( PLUS ) nwell_conn ( MINUS ) -model g45pd1svt [ property area , pj 
+ area = area ( _pdio ) 
+ pj = perimeter ( _pdio ) 
+ ];
+DEVICE D ( g45pd1lvt ) _pdio_lvt pdiff_conn ( PLUS ) nwell_conn ( MINUS ) -model g45pd1lvt [ property area , pj 
+ area = area ( _pdio_lvt ) 
+ pj = perimeter ( _pdio_lvt ) 
+ ];
+DEVICE D ( g45pd1hvt ) _pdio_hvt pdiff_conn ( PLUS ) nwell_conn ( MINUS ) -model g45pd1hvt [ property area , pj 
+ area = area ( _pdio_hvt ) 
+ pj = perimeter ( _pdio_hvt ) 
+ ];
+DEVICE D ( g45pd2svt ) _pdio_2v pdiff_conn ( PLUS ) nwell_conn ( MINUS ) -model g45pd2svt [ property area , pj 
+ area = area ( _pdio_2v ) 
+ pj = perimeter ( _pdio_2v ) 
+ ];
+DEVICE Q ( g45vpnp2 ) _vpnp2 psubstrate ( C ) nwell_conn ( B ) pdiff_conn ( E ) -model g45vpnp2 [ property area 
+ area = area ( E ) * 1 
+ ];
+DEVICE Q ( g45vpnp5 ) _vpnp5 psubstrate ( C ) nwell_conn ( B ) pdiff_conn ( E ) -model g45vpnp5 [ property area 
+ area = area ( E ) * 1 
+ ];
+DEVICE Q ( g45vpnp10 ) _vpnp10 psubstrate ( C ) nwell_conn ( B ) pdiff_conn ( E ) -model g45vpnp10 [ property area 
+ area = area ( E ) * 1 
+ ];
+DEVICE Q ( g45vnpn2 ) _npn2 nwell_conn ( C ) psubstrate ( B ) npn_emit ( E ) -model g45vnpn2 [ property area 
+ area = area ( E ) * 1 
+ ];
+DEVICE Q ( g45vnpn5 ) _npn5 nwell_conn ( C ) psubstrate ( B ) npn_emit ( E ) -model g45vnpn5 [ property area 
+ area = area ( E ) * 1 
+ ];
+DEVICE Q ( g45vnpn10 ) _npn10 nwell_conn ( C ) psubstrate ( B ) npn_emit ( E ) -model g45vnpn10 [ property area 
+ area = area ( E ) * 1 
+ ];
+DEVICE C ( g45cmim ) _mimcap CapMetal ( PLUS ) metal10_conn ( MINUS ) psubstrate ( B ) -model g45cmim [ property w , l , c , area , perim 
+ area = area ( _mimcap ) 
+ perim = perimeter ( _mimcap ) 
+ w = perim*0.25 
+ l = perim*0.25 
+ c = area*1e-3 + perim*1e-10 
+ ];
+LVS_REDUCE_DEVICE C ( g45cmim ) -parallel yes [ TOLERANCE l 0 w 0 
+ effective l , w 
+ l = sum ( l ) / count ( ) 
+ w = sum ( w ) 
+ ];
+LVS_CHECK_PROPERTY C ( g45cmim ) l l -tolerance 0;
+LVS_CHECK_PROPERTY C ( g45cmim ) w w -tolerance 0;
+DEVICE L ( g45inda ) _ind_a ind10 ( PLUS ) ind11 ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) < inda_width > < ind2_space > < inda_rad > < ind_nr > -model g45inda [ property width space nr rad 
+ width = area ( inda_width ) * 100000000 
+ space = area ( ind2_space ) * 50000000 
+ nr = count ( ind_nr ) - 0.5 
+ rad = area ( inda_rad ) * 5000000 
+ ];
+LVS_CHECK_PROPERTY g45inda width width -tolerance 1;
+LVS_CHECK_PROPERTY g45inda space space -tolerance 1;
+LVS_CHECK_PROPERTY g45inda nr nr -tolerance 1;
+LVS_CHECK_PROPERTY g45inda rad rad -tolerance 1;
+SELECT -enclose _ind_s ind10 -outputlayer _ind_s_enc;
+DEVICE L ( g45inds ) _ind_s ind11 ( PLUS ) ind11 ( MINUS ) psubstrate ( B ) ( PLUS MINUS ) -model g45inds < inds_width > < ind2_sp1 > < ind_rad > < _ind_s_enc > [ property width rad space nr 
+ width = area ( inds_width ) * 100000000 
+ space = area ( ind2_sp1 ) * 100000000 
+ rad = area ( ind_rad ) * 5000000 
+ nr = ( count ( _ind_s_enc ) + 1 ) 
+ ];
+LVS_CHECK_PROPERTY g45inds width width -tolerance 1;
+LVS_CHECK_PROPERTY g45inds space space -tolerance 1;
+LVS_CHECK_PROPERTY g45inds nr nr -tolerance 1;
+LVS_CHECK_PROPERTY g45inds rad rad -tolerance 1;
+
+tcl_code wpe_procedure
+{
+proc calc_sca { SCH SCV W L scref} {
+set  sca1 0.0
+set  sca2 0.0
+set  SCref  [ expr { [$scref] * 1e-6 } ]
+set  slice_count1 [ $SCH slice_count ]
+set  slice_count2 [ $SCV slice_count ]
+
+for { set i 0 } { $i < $slice_count1} { incr i } {
+    set sca1 [ expr { $sca1 + ([$SCH w $i] * ( (($SCref * $SCref/[$SCH a $i]) - ($SCref * $SCref/([$SCH a $i] + [$L]))) + (($SCref * $SCref/[$SCH b $i]) - ($SCref * $SCref/([$SCH b $i] + [$L]))) ) ) }]
+}
+
+for { set i 0 } { $i < $slice_count2} { incr i } {
+    set sca2 [ expr { $sca2 + ([$SCV w $i] * ( (($SCref * $SCref/[$SCV a $i]) - ($SCref * $SCref/([$SCV a $i] + [$W]))) + (($SCref * $SCref/[$SCV b $i]) - ($SCref * $SCref/([$SCV b $i] + [$W]))) ) ) }]
+}
+
+return [ expr { ($sca1 + $sca2) / (([$W] * [$L])) }]
+}
+
+proc calc_scb { SCH SCV W L scref} {
+set  scb1 0.0
+set  scb2 0.0
+set  SCref [ expr { [$scref] * 1e-06 } ]
+set  slice_count1 [ $SCH slice_count ]
+set  slice_count2 [ $SCV slice_count ]
+
+for { set i 0 } { $i < $slice_count1} { incr i } {
+    set expo_ha1 [ expr { exp(-10*[$SCH a $i]/$SCref) } ]
+    set expo_ha2 [ expr { exp(-10*([$SCH a $i]+[$L])/$SCref) } ]
+    set expo_hb1 [ expr { exp(-10*[$SCH b $i]/$SCref) } ]
+    set expo_hb2 [ expr { exp(-10*([$SCH b $i]+[$L])/$SCref) } ]
+    set scb1 [ expr {$scb1 + ([$SCH w $i] * (([$SCH a $i]/10 + $SCref/100)*$expo_ha1 - (([$SCH a $i] + [$L])/10 + $SCref/100)*$expo_ha2 + ([$SCH b $i]/10 + $SCref/100)*$expo_hb1 - (([$SCH b $i] + [$L])/10 + $SCref/100)*$expo_hb2) ) }]
+}
+
+for { set i 0 } { $i < $slice_count2} { incr i } {
+    set expo_va1 [ expr { exp(-10*[$SCV a $i]/$SCref) } ]
+    set expo_va2 [ expr { exp(-10*([$SCV a $i]+[$W])/$SCref) } ]
+    set expo_vb1 [ expr { exp(-10*[$SCV b $i]/$SCref) } ]
+    set expo_vb2 [ expr { exp(-10*([$SCV b $i]+[$W])/$SCref) } ]
+    set scb2 [ expr {$scb2 + ([$SCV w $i] * (([$SCV a $i]/10 + $SCref/100)*$expo_va1 - (([$SCV a $i] + [$W])/10 + $SCref/100)*$expo_va2 + ([$SCV b $i]/10 + $SCref/100)*$expo_vb1 - (([$SCV b $i] + [$W])/10 + $SCref/100)*$expo_vb2) ) }]
+}
+
+return [ expr { ($scb1 + $scb2) / (([$W] * [$L])) }]
+}
+
+proc calc_scc { SCH SCV W L scref} {
+set  scc1 0.0
+set  scc2 0.0
+set  SCref [ expr { [$scref] * 1e-6 } ]
+set  slice_count1 [ $SCH slice_count ]
+set  slice_count2 [ $SCV slice_count ]
+
+for { set i 0 } { $i < $slice_count1} { incr i } {
+    set expo_ha1 [ expr { exp(-20*[$SCH a $i]/$SCref) } ]
+    set expo_ha2 [ expr { exp(-20*([$SCH a $i]+[$L])/$SCref) } ]
+    set expo_hb1 [ expr { exp(-20*[$SCH b $i]/$SCref) } ]
+    set expo_hb2 [ expr { exp(-20*([$SCH b $i]+[$L])/$SCref) } ]
+    set scc1 [ expr {$scc1 + ([$SCH w $i] * (([$SCH a $i]/20 + $SCref/400)*$expo_ha1 - (([$SCH a $i] + [$L])/20 + $SCref/400)*$expo_ha2 + ([$SCH b $i]/20 + $SCref/400)*$expo_hb1 - (([$SCH b $i] + [$L])/20 + $SCref/400)*$expo_hb2) ) }]
+}
+
+for { set i 0 } { $i < $slice_count2} { incr i } {
+    set expo_va1 [ expr { exp(-20*[$SCV a $i]/$SCref) } ]
+    set expo_va2 [ expr { exp(-20*([$SCV a $i]+[$W])/$SCref) } ]
+    set expo_vb1 [ expr { exp(-20*[$SCV b $i]/$SCref) } ]
+    set expo_vb2 [ expr { exp(-20*([$SCV b $i]+[$W])/$SCref) } ]
+    set scc2 [ expr {$scc2 + ([$SCV w $i] * (([$SCV a $i]/20 + $SCref/400)*$expo_va1 - (([$SCV a $i] + [$W])/20 + $SCref/400)*$expo_va2 + ([$SCV b $i]/20 + $SCref/400)*$expo_vb1 - (([$SCV b $i] + [$W])/20 + $SCref/400)*$expo_vb2) ) }]
+}
+
+return [ expr { ($scc1 + $scc2) / (([$W] * [$L])) }]
+}
+
+};
+
+Layer 'metal6_conn_text' and 'metal7_conn_text' have the same mask number 1069.
+
+
+operation group: 1/236
+    bulk = EXTENT
+========================================================================
+
+
+operation group: 2/236
+    L86607 = OR INDdummy M11Resdum
+========================================================================
+
+
+operation group: 3/236
+    metal11_conn = NOT Metal11 L86607
+========================================================================
+
+
+operation group: 4/236
+    bp_tap = AND Bondpad Metal9
+========================================================================
+
+
+operation group: 5/236
+    L13465 = AND INDdummy Metal11
+========================================================================
+
+
+operation group: 6/236
+    ind11 = SIZE L13465 -by 0.01 -overunder
+========================================================================
+
+
+operation group: 7/236
+    via10_cap = AND CapMetal Via10
+========================================================================
+
+
+operation group: 8/236
+    L17074 = OR INDdummy M10Resdum
+========================================================================
+
+
+operation group: 9/236
+    metal10_conn = NOT Metal10 L17074
+========================================================================
+
+
+operation group: 10/236
+    via10_nocap = NOT Via10 CapMetal
+========================================================================
+
+
+operation group: 11/236
+    ind10 = AND INDdummy Metal10
+========================================================================
+
+
+operation group: 12/236
+    _ind_a = SELECT -enclose INDdummy ind11 -lt 2
+========================================================================
+
+
+operation group: 13/236
+    _ind_s1 = SELECT -interact INDdummy _ind_a -not
+========================================================================
+
+
+operation group: 14/236
+    _ind_s = SELECT -enclose _ind_s1 ind11
+========================================================================
+
+
+operation group: 15/236
+    L13648 = AND Via10 _ind_s
+========================================================================
+
+
+operation group: 16/236
+    L54420 = AND ind10 ind11
+========================================================================
+
+
+operation group: 17/236
+    L42364 = AND L54420 _ind_s
+========================================================================
+
+
+operation group: 18/236
+    L83584 = OR ind10 ind11
+========================================================================
+
+
+operation group: 19/236
+    L87155 = HOLES L83584 -inner
+========================================================================
+
+
+operation group: 20/236
+    ind_hole = VERTEX L87155 -lt 14
+========================================================================
+
+
+operation group: 21/236
+    L12760 = SELECT -touch L42364 ind_hole
+========================================================================
+
+
+operation group: 22/236
+    ind_ct = SELECT -interact L12760 Via10
+========================================================================
+
+
+operation group: 23/236
+    ind_via_diva = NOT L13648 ind_ct
+========================================================================
+
+
+operation group: 24/236
+    L47735 = OR CapMetal INDdummy
+========================================================================
+
+
+operation group: 25/236
+    via10_nodev = NOT Via10 L47735
+========================================================================
+
+
+operation group: 26/236
+    metal9_conn = NOT Metal9 M9Resdum
+========================================================================
+
+
+operation group: 27/236
+    metal8_conn = NOT Metal8 M8Resdum
+========================================================================
+
+
+operation group: 28/236
+    metal7_conn = NOT Metal7 M7Resdum
+========================================================================
+
+
+operation group: 29/236
+    metal6_conn = NOT Metal6 M6Resdum
+========================================================================
+
+
+operation group: 30/236
+    metal5_conn = NOT Metal5 M5Resdum
+========================================================================
+
+
+operation group: 31/236
+    metal4_conn = NOT Metal4 M4Resdum
+========================================================================
+
+
+operation group: 32/236
+    metal3_conn = NOT Metal3 M3Resdum
+========================================================================
+
+
+operation group: 33/236
+    metal2_conn = NOT Metal2 M2Resdum
+========================================================================
+
+
+operation group: 34/236
+    metal1_conn = NOT Metal1 M1Resdum
+========================================================================
+
+
+operation group: 35/236
+    poly_conn = NOT Poly Resdum
+========================================================================
+
+
+operation group: 36/236
+    cont_poly = AND Cont Poly
+========================================================================
+
+
+operation group: 37/236
+    pactive = AND Oxide Pimp
+========================================================================
+
+
+operation group: 38/236
+    pdiff = NOT pactive Poly
+========================================================================
+
+
+operation group: 39/236
+    pdiff_conn = NOT pdiff Resdum
+========================================================================
+
+
+operation group: 40/236
+    cont_pdiff = AND Cont pdiff_conn
+========================================================================
+
+
+operation group: 41/236
+    nactive = AND Nimp Oxide
+========================================================================
+
+
+operation group: 42/236
+    ndiff = NOT nactive poly_conn
+========================================================================
+
+
+operation group: 43/236
+    ndiff_conn = NOT ndiff Resdum
+========================================================================
+
+
+operation group: 44/236
+    L61645 = AND NPNdummy ndiff_conn
+========================================================================
+
+
+operation group: 45/236
+    npn_emit = NOT L61645 Nwell
+========================================================================
+
+
+operation group: 46/236
+    cont_ndiff = AND Cont ndiff_conn
+========================================================================
+
+
+operation group: 47/236
+    L98077 = AND Psub pdiff_conn
+========================================================================
+
+
+operation group: 48/236
+    pnp_emit = AND L98077 PNPdummy
+========================================================================
+
+
+operation group: 49/236
+    nb_tap = AND Nburied Nwell
+========================================================================
+
+
+operation group: 50/236
+    L14174 = NOT bulk nb_tap
+========================================================================
+
+
+operation group: 51/236
+    L86601 = SIZE Psub -by -0.001
+========================================================================
+
+
+operation group: 52/236
+    L7495 = NOT Psub L86601
+========================================================================
+
+
+operation group: 53/236
+    psubstrate = NOT L14174 L7495
+========================================================================
+
+
+operation group: 54/236
+    L65704 = NOT pdiff_conn Nwell
+========================================================================
+
+
+operation group: 55/236
+    ptap = NOT L65704 PNPdummy
+========================================================================
+
+
+operation group: 56/236
+    nwell_conn = NOT Nwell ResWdum
+========================================================================
+
+
+operation group: 57/236
+    L74405 = AND Nwell ndiff_conn
+========================================================================
+
+
+operation group: 58/236
+    L28555 = AND NPNdummy Psub
+========================================================================
+
+
+operation group: 59/236
+    ntap = NOT L74405 L28555
+========================================================================
+
+
+operation group: 60/236
+    CONNECT Bondpad metal11_conn -by bp_tap
+    CONNECT ind11 metal11_conn
+    CONNECT metal11_conn CapMetal -by via10_cap
+    CONNECT metal11_conn metal10_conn -by via10_nocap
+    CONNECT ind11 ind10 -by ind_via_diva
+    CONNECT metal11_conn metal10_conn -by via10_nodev
+    CONNECT ind_ct ind10
+    CONNECT ind10 metal10_conn
+    CONNECT metal10_conn metal9_conn -by Via9
+    CONNECT metal9_conn metal8_conn -by Via8
+    CONNECT metal8_conn metal7_conn -by Via7
+    CONNECT metal7_conn metal6_conn -by Via6
+    CONNECT metal6_conn metal5_conn -by Via5
+    CONNECT metal5_conn metal4_conn -by Via4
+    CONNECT metal4_conn metal3_conn -by Via3
+    CONNECT metal3_conn metal2_conn -by Via2
+    CONNECT metal2_conn metal1_conn -by Via1
+    CONNECT metal1_conn poly_conn -by cont_poly
+    CONNECT metal1_conn pdiff_conn -by cont_pdiff
+    CONNECT metal1_conn npn_emit -by cont_ndiff
+    CONNECT metal1_conn ndiff_conn -by cont_ndiff
+    CONNECT metal1_conn pnp_emit -by cont_pdiff
+    SCONNECT pdiff_conn psubstrate -by ptap
+    SCONNECT ndiff_conn nwell_conn -by ntap
+    SCONNECT nwell_conn Nburied -by nb_tap
+========================================================================
+
+
+operation group: 61/236
+    _npn2 = AND NPN2dum NPNdummy
+========================================================================
+
+
+operation group: 62/236
+    _npn5 = AND NPN5dum NPNdummy
+========================================================================
+
+
+operation group: 63/236
+    _npn10 = AND NPN10dum NPNdummy
+========================================================================
+
+
+operation group: 64/236
+    _resm1 = AND M1Resdum Metal1
+========================================================================
+
+
+operation group: 65/236
+    _resm2 = AND M2Resdum Metal2
+========================================================================
+
+
+operation group: 66/236
+    _resm3 = AND M3Resdum Metal3
+========================================================================
+
+
+operation group: 67/236
+    _resm4 = AND M4Resdum Metal4
+========================================================================
+
+
+operation group: 68/236
+    _resm5 = AND M5Resdum Metal5
+========================================================================
+
+
+operation group: 69/236
+    _resm6 = AND M6Resdum Metal6
+========================================================================
+
+
+operation group: 70/236
+    _resm7 = AND M7Resdum Metal7
+========================================================================
+
+
+operation group: 71/236
+    _resm8 = AND M8Resdum Metal8
+========================================================================
+
+
+operation group: 72/236
+    _resm9 = AND M9Resdum Metal9
+========================================================================
+
+
+operation group: 73/236
+    _resm10 = AND M10Resdum Metal10
+========================================================================
+
+
+operation group: 74/236
+    _resm11 = AND M11Resdum Metal11
+========================================================================
+
+
+operation group: 75/236
+    L40182 = AND Nwell SiProt
+========================================================================
+
+
+operation group: 76/236
+    _resnwoxide = AND L40182 ResWdum
+========================================================================
+
+
+operation group: 77/236
+    L25544 = SELECT -interact Nwell SiProt -not
+========================================================================
+
+
+operation group: 78/236
+    _resnwsti = AND L25544 ResWdum
+========================================================================
+
+
+operation group: 79/236
+    L68803 = AND BJTdum pdiff_conn
+========================================================================
+
+
+operation group: 80/236
+    _vpnp2 = AREA L68803 -eq 4
+========================================================================
+
+
+operation group: 81/236
+    _vpnp5 = AREA L68803 -eq 25
+========================================================================
+
+
+operation group: 82/236
+    _vpnp10 = AREA L68803 -eq 100
+========================================================================
+
+
+operation group: 83/236
+    L92042 = AND metal10_conn metal11_conn
+========================================================================
+
+
+operation group: 84/236
+    _mimcap = SELECT -interact CapMetal L92042
+========================================================================
+
+
+operation group: 85/236
+    L54696 = AND DIOdummy Oxide
+========================================================================
+
+
+operation group: 86/236
+    L77738 = AND L54696 Oxide_thk
+========================================================================
+
+
+operation group: 87/236
+    L73169 = AND L77738 Nzvt
+========================================================================
+
+
+operation group: 88/236
+    _ndio_2v_nvt = NOT L73169 Nwell
+========================================================================
+
+
+operation group: 89/236
+    L97435 = NOT L54696 Oxide_thk
+========================================================================
+
+
+operation group: 90/236
+    L22301 = AND L97435 Nhvt
+========================================================================
+
+
+operation group: 91/236
+    _ndio_hvt = NOT L22301 Nwell
+========================================================================
+
+
+operation group: 92/236
+    L18457 = AND L97435 Nlvt
+========================================================================
+
+
+operation group: 93/236
+    _ndio_lvt = NOT L18457 Nwell
+========================================================================
+
+
+operation group: 94/236
+    L5003 = AND L97435 Nzvt
+========================================================================
+
+
+operation group: 95/236
+    _ndio_nvt = NOT L5003 Nwell
+========================================================================
+
+
+operation group: 96/236
+    L62719 = AND L97435 Phvt
+========================================================================
+
+
+operation group: 97/236
+    _pdio_hvt = AND L62719 Nwell
+========================================================================
+
+
+operation group: 98/236
+    L58875 = AND L97435 Plvt
+========================================================================
+
+
+operation group: 99/236
+    _pdio_lvt = AND L58875 Nwell
+========================================================================
+
+
+operation group: 100/236
+    L28394 = NOT Oxide Oxide_thk
+========================================================================
+
+
+operation group: 101/236
+    L66375 = AND L28394 Poly
+========================================================================
+
+
+operation group: 102/236
+    L29970 = AND L66375 Pimp
+========================================================================
+
+
+operation group: 103/236
+    _pmos1v_hvt = AND L29970 Phvt
+========================================================================
+
+
+operation group: 104/236
+    _pmos1v_lvt = AND L29970 Plvt
+========================================================================
+
+
+operation group: 105/236
+    L18758 = AND SiProt nactive
+========================================================================
+
+
+operation group: 106/236
+    L23316 = AND L18758 Resdum
+========================================================================
+
+
+operation group: 107/236
+    _resnsndiff = NOT L23316 Nwell
+========================================================================
+
+
+operation group: 108/236
+    L5240 = AND Poly SiProt
+========================================================================
+
+
+operation group: 109/236
+    L1378 = AND L5240 Nimp
+========================================================================
+
+
+operation group: 110/236
+    L66582 = AND L1378 Resdum
+========================================================================
+
+
+operation group: 111/236
+    _resnsnpoly = NOT L66582 Nwell
+========================================================================
+
+
+operation group: 112/236
+    _resnsnpoly_nw = AND L66582 Nwell
+========================================================================
+
+
+operation group: 113/236
+    L88604 = AND SiProt pactive
+========================================================================
+
+
+operation group: 114/236
+    L197 = AND L88604 Resdum
+========================================================================
+
+
+operation group: 115/236
+    _resnspdiff = AND L197 Nwell
+========================================================================
+
+
+operation group: 116/236
+    L60960 = AND L5240 Pimp
+========================================================================
+
+
+operation group: 117/236
+    L4294 = AND L60960 Resdum
+========================================================================
+
+
+operation group: 118/236
+    _resnsppoly = NOT L4294 Nwell
+========================================================================
+
+
+operation group: 119/236
+    _resnsppoly_nw = AND L4294 Nwell
+========================================================================
+
+
+operation group: 120/236
+    L62496 = SELECT -interact nactive SiProt -not
+========================================================================
+
+
+operation group: 121/236
+    L426 = AND L62496 Resdum
+========================================================================
+
+
+operation group: 122/236
+    _ressndiff = NOT L426 Nwell
+========================================================================
+
+
+operation group: 123/236
+    L90381 = NOT Poly SiProt
+========================================================================
+
+
+operation group: 124/236
+    L49196 = AND L90381 Nimp
+========================================================================
+
+
+operation group: 125/236
+    L17878 = AND L49196 Resdum
+========================================================================
+
+
+operation group: 126/236
+    _ressnpoly = NOT L17878 Nwell
+========================================================================
+
+
+operation group: 127/236
+    _ressnpoly_nw = AND L17878 Nwell
+========================================================================
+
+
+operation group: 128/236
+    L79746 = SELECT -interact pactive SiProt -not
+========================================================================
+
+
+operation group: 129/236
+    L22728 = AND L79746 Resdum
+========================================================================
+
+
+operation group: 130/236
+    _resspdiff = AND L22728 Nwell
+========================================================================
+
+
+operation group: 131/236
+    L8778 = AND L90381 Pimp
+========================================================================
+
+
+operation group: 132/236
+    L54937 = AND L8778 Resdum
+========================================================================
+
+
+operation group: 133/236
+    _ressppoly = NOT L54937 Nwell
+========================================================================
+
+
+operation group: 134/236
+    _ressppoly_nw = AND L54937 Nwell
+========================================================================
+
+
+operation group: 135/236
+    L24975 = AND Oxide Oxide_thk
+========================================================================
+
+
+operation group: 136/236
+    L98842 = AND L24975 Poly
+========================================================================
+
+
+operation group: 137/236
+    L73768 = AND L98842 Pimp
+========================================================================
+
+
+operation group: 138/236
+    L8948 = OR Cap3dum Capdum
+========================================================================
+
+
+operation group: 139/236
+    _pmos2v = NOT L73768 L8948
+========================================================================
+
+
+operation group: 140/236
+    L89552 = AND L66375 Nimp
+========================================================================
+
+
+operation group: 141/236
+    L70180 = AND L89552 Nzvt
+========================================================================
+
+
+operation group: 142/236
+    L21328 = NOT L70180 Nhvt
+========================================================================
+
+
+operation group: 143/236
+    _nmos_12_native = NOT L21328 Nburied
+========================================================================
+
+
+operation group: 144/236
+    L14186 = AND L98842 Nimp
+========================================================================
+
+
+operation group: 145/236
+    L15681 = AND L14186 Nzvt
+========================================================================
+
+
+operation group: 146/236
+    L10869 = NOT L15681 Nhvt
+========================================================================
+
+
+operation group: 147/236
+    _nmos_25_native = NOT L10869 Nburied
+========================================================================
+
+
+operation group: 148/236
+    L62041 = AND L97435 Pimp
+========================================================================
+
+
+operation group: 149/236
+    L28017 = NOT L62041 Plvt
+========================================================================
+
+
+operation group: 150/236
+    L17166 = NOT L28017 Phvt
+========================================================================
+
+
+operation group: 151/236
+    _pdio = AND L17166 Nwell
+========================================================================
+
+
+operation group: 152/236
+    L16131 = AND L77738 Pimp
+========================================================================
+
+
+operation group: 153/236
+    L48360 = NOT L16131 Plvt
+========================================================================
+
+
+operation group: 154/236
+    L917 = NOT L48360 Phvt
+========================================================================
+
+
+operation group: 155/236
+    _pdio_2v = AND L917 Nwell
+========================================================================
+
+
+operation group: 156/236
+    L21623 = AND L97435 Nimp
+========================================================================
+
+
+operation group: 157/236
+    L12020 = NOT L21623 Nlvt
+========================================================================
+
+
+operation group: 158/236
+    L4397 = NOT L12020 Nhvt
+========================================================================
+
+
+operation group: 159/236
+    L8315 = NOT L4397 Nzvt
+========================================================================
+
+
+operation group: 160/236
+    _ndio = NOT L8315 Nwell
+========================================================================
+
+
+operation group: 161/236
+    L56549 = AND L77738 Nimp
+========================================================================
+
+
+operation group: 162/236
+    L18325 = NOT L56549 Nlvt
+========================================================================
+
+
+operation group: 163/236
+    L87119 = NOT L18325 Nhvt
+========================================================================
+
+
+operation group: 164/236
+    L50344 = NOT L87119 Nzvt
+========================================================================
+
+
+operation group: 165/236
+    _ndio_2v = NOT L50344 Nwell
+========================================================================
+
+
+operation group: 166/236
+    L87478 = AND L89552 Nhvt
+========================================================================
+
+
+operation group: 167/236
+    L13756 = OR Nlvt Nburied Nzvt
+========================================================================
+
+
+operation group: 168/236
+    _nmos1v_hvt = NOT L87478 L13756
+========================================================================
+
+
+operation group: 169/236
+    L83634 = AND L89552 Nlvt
+========================================================================
+
+
+operation group: 170/236
+    L25035 = OR Nhvt Nzvt
+========================================================================
+
+
+operation group: 171/236
+    L68361 = OR L25035 Nburied
+========================================================================
+
+
+operation group: 172/236
+    _nmos1v_lvt = NOT L83634 L68361
+========================================================================
+
+
+operation group: 173/236
+    L25441 = NOT L89552 Nzvt
+========================================================================
+
+
+operation group: 174/236
+    L70734 = NOT L25441 Nhvt
+========================================================================
+
+
+operation group: 175/236
+    L8530 = NOT L70734 Nburied
+========================================================================
+
+
+operation group: 176/236
+    _nmoscap1v = AND Capdum L8530
+========================================================================
+
+
+operation group: 177/236
+    L55994 = NOT L14186 Nzvt
+========================================================================
+
+
+operation group: 178/236
+    L55604 = NOT L55994 Nhvt
+========================================================================
+
+
+operation group: 179/236
+    L64343 = NOT L55604 Nburied
+========================================================================
+
+
+operation group: 180/236
+    _nmoscap2v = AND Capdum L64343
+========================================================================
+
+
+operation group: 181/236
+    L85139 = OR Cap3dum Capdum Phvt Plvt
+========================================================================
+
+
+operation group: 182/236
+    _pmos1v = NOT L29970 L85139
+========================================================================
+
+
+operation group: 183/236
+    L5017 = NOT L29970 Nzvt
+========================================================================
+
+
+operation group: 184/236
+    L28655 = NOT L5017 Nhvt
+========================================================================
+
+
+operation group: 185/236
+    L38143 = NOT L28655 Nburied
+========================================================================
+
+
+operation group: 186/236
+    _pmoscap1v = AND Capdum L38143
+========================================================================
+
+
+operation group: 187/236
+    L4203 = NOT L73768 Nzvt
+========================================================================
+
+
+operation group: 188/236
+    L16207 = NOT L4203 Nhvt
+========================================================================
+
+
+operation group: 189/236
+    L72451 = NOT L16207 Nburied
+========================================================================
+
+
+operation group: 190/236
+    _pmoscap2v = AND Capdum L72451
+========================================================================
+
+
+operation group: 191/236
+    _nmos_25 = NOT L64343 L8948
+========================================================================
+
+
+operation group: 192/236
+    L26526 = OR Cap3dum Capdum L25035 Nburied Nlvt
+========================================================================
+
+
+operation group: 193/236
+    _nmos1v = NOT L89552 L26526
+========================================================================
+
+
+operation group: 194/236
+    L57315 = ANGLE IND2dummy -ltgt 0 90 -not
+========================================================================
+
+
+operation group: 195/236
+    L71536 = EDGE_EXPAND L57315 -outside_by 0.01
+========================================================================
+
+
+operation group: 196/236
+    L93547 = NOT L71536 IND2dummy
+========================================================================
+
+
+operation group: 197/236
+    ind2_width = SELECT -inside L93547 ind11
+========================================================================
+
+
+operation group: 198/236
+    inda_width = AND _ind_a ind2_width
+========================================================================
+
+
+operation group: 199/236
+    ind_nr = NOT ind10 ind11
+========================================================================
+
+
+operation group: 200/236
+    L69850 = SELECT -touch ind_nr IND2dummy
+========================================================================
+
+
+operation group: 201/236
+    L78036 = ANGLE L69850 -ltgt 0 90 -not
+========================================================================
+
+
+operation group: 202/236
+    L91609 = EDGE_EXPAND L78036 -outside_by 0.01
+========================================================================
+
+
+operation group: 203/236
+    L15138 = NOT L91609 ind11
+========================================================================
+
+
+operation group: 204/236
+    L37576 = NOT L15138 ind10
+========================================================================
+
+
+operation group: 205/236
+    ind2_space = VERTEX L37576 -lt 5
+========================================================================
+
+
+operation group: 206/236
+    L69131 = AND _ind_a ind_hole
+========================================================================
+
+
+operation group: 207/236
+    L1472 = SIZE L69131 -by 0.1
+========================================================================
+
+
+operation group: 208/236
+    L62333 = NOT L1472 L69131
+========================================================================
+
+
+operation group: 209/236
+    L82556 = EDGE_EXPAND L1472 -inside_by 0.1
+========================================================================
+
+
+operation group: 210/236
+    L28951 = NOT L62333 L82556
+========================================================================
+
+
+operation group: 211/236
+    L87029 = ANGLE L28951 -ltgt 0 90 -not
+========================================================================
+
+
+operation group: 212/236
+    L27296 = EDGE_EXPAND L87029 -outside_by 101
+========================================================================
+
+
+operation group: 213/236
+    L13931 = OR L27296 L28951
+========================================================================
+
+
+operation group: 214/236
+    L10222 = AND L13931 ind_hole
+========================================================================
+
+
+operation group: 215/236
+    L25455 = ANGLE L10222 -ltgt 0 90
+========================================================================
+
+
+operation group: 216/236
+    L96841 = EDGE_EXPAND L25455 -inside_by 0.001
+========================================================================
+
+
+operation group: 217/236
+    L68829 = SELECT -interact L10222 L96841 -not
+========================================================================
+
+
+operation group: 218/236
+    inda_rad = AREA L68829 -gt 0.8
+========================================================================
+
+
+operation group: 219/236
+    inds_width = AND _ind_s ind2_width
+========================================================================
+
+
+operation group: 220/236
+    L70261 = SIZE IND2dummy -by 5
+========================================================================
+
+
+operation group: 221/236
+    L66884 = SIZE INDdummy -by -1
+========================================================================
+
+
+operation group: 222/236
+    L26372 = NOT L70261 L66884
+========================================================================
+
+
+operation group: 223/236
+    L19884 = AND INDdummy L26372
+========================================================================
+
+
+operation group: 224/236
+    L73859 = NOT L19884 ind11
+========================================================================
+
+
+operation group: 225/236
+    L50941 = EDGE_BOOLEAN ind11 L73859 -coincident_only -outside
+========================================================================
+
+
+operation group: 226/236
+    L12819 = EDGE_EXPAND L50941 -inside_by 0.001
+========================================================================
+
+
+operation group: 227/236
+    L33493 = SELECT -interact ind11 L12819
+========================================================================
+
+
+operation group: 228/236
+    ind2_sp1 = SELECT -interact L73859 L33493 -eq 2
+========================================================================
+
+
+operation group: 229/236
+    L65767 = ANGLE ind_ct -ltgt 0 90 -not
+========================================================================
+
+
+operation group: 230/236
+    L12066 = EDGE_EXPAND L65767 -outside_by 0.1
+========================================================================
+
+
+operation group: 231/236
+    L64022 = AND L12066 ind10
+========================================================================
+
+
+operation group: 232/236
+    L30099 = EDGE_BOOLEAN L64022 ind_hole -coincident_only -outside
+========================================================================
+
+
+operation group: 233/236
+    L43958 = EDGE_EXPAND L30099 -outside_by 101
+========================================================================
+
+
+operation group: 234/236
+    ind_rad = AND L43958 ind_hole
+========================================================================
+
+
+operation group: 235/236
+    _ind_s_enc = SELECT -enclose _ind_s ind10
+========================================================================
+
+
+operation group: 236/236
+    DEVICE M( g45n1svt) _nmos1v ( S D) -model g45n1svt < nactive> poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmos1v, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmos1v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(nactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_nmos1v, psubstrate, S, 1.000000)
+		scv = enc_par(_nmos1v, psubstrate, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45n1hvt) _nmos1v_hvt ( S D) -model g45n1hvt < nactive> poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmos1v_hvt, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmos1v_hvt) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(nactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_nmos1v_hvt, psubstrate, S, 1.000000)
+		scv = enc_par(_nmos1v_hvt, psubstrate, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45n1lvt) _nmos1v_lvt ( S D) -model g45n1lvt < nactive> poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmos1v_lvt, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmos1v_lvt) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(nactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_nmos1v_lvt, psubstrate, S, 1.000000)
+		scv = enc_par(_nmos1v_lvt, psubstrate, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45n1nvt) _nmos_12_native ( S D) -model g45n1nvt < nactive> poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmos_12_native, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmos_12_native) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(nactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_nmos_12_native, psubstrate, S, 1.000000)
+		scv = enc_par(_nmos_12_native, psubstrate, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45n2svt) _nmos_25 ( S D) -model g45n2svt < nactive> poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmos_25, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmos_25) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(nactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_nmos_25, psubstrate, S, 1.000000)
+		scv = enc_par(_nmos_25, psubstrate, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45n2nvt) _nmos_25_native ( S D) -model g45n2nvt < nactive> poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmos_25_native, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmos_25_native) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(nactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_nmos_25_native, psubstrate, S, 1.000000)
+		scv = enc_par(_nmos_25_native, psubstrate, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45ncap1) _nmoscap1v ( S D) -model g45ncap1 poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmoscap1v, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmoscap1v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+	]
+
+    DEVICE M( g45ncap2) _nmoscap2v ( S D) -model g45ncap2 poly_conn( G) ndiff_conn( S) ndiff_conn( D) psubstrate( B) [
+		width = (perim_co(_nmoscap2v, ndiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_nmoscap2v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+	]
+
+    DEVICE M( g45p1svt) _pmos1v ( S D) -model g45p1svt < pactive> poly_conn( G) pdiff_conn( S) pdiff_conn( D) nwell_conn( B) [
+		width = (perim_co(_pmos1v, pdiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_pmos1v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(pactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_pmos1v, nwell_conn, S, 1.000000)
+		scv = enc_par(_pmos1v, nwell_conn, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45p1hvt) _pmos1v_hvt ( S D) -model g45p1hvt < pactive> poly_conn( G) pdiff_conn( S) pdiff_conn( D) nwell_conn( B) [
+		width = (perim_co(_pmos1v_hvt, pdiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_pmos1v_hvt) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(pactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_pmos1v_hvt, nwell_conn, S, 1.000000)
+		scv = enc_par(_pmos1v_hvt, nwell_conn, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45p1lvt) _pmos1v_lvt ( S D) -model g45p1lvt < pactive> poly_conn( G) pdiff_conn( S) pdiff_conn( D) nwell_conn( B) [
+		width = (perim_co(_pmos1v_lvt, pdiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_pmos1v_lvt) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(pactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_pmos1v_lvt, nwell_conn, S, 1.000000)
+		scv = enc_par(_pmos1v_lvt, nwell_conn, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45p2svt) _pmos2v ( S D) -model g45p2svt < pactive> poly_conn( G) pdiff_conn( S) pdiff_conn( D) nwell_conn( B) [
+		width = (perim_co(_pmos2v, pdiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_pmos2v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+		s = enc_vec(pactive, 2.000000)
+		sw = SUM(s :: w)
+		sa = SUM((s :: a) * ((s :: w) / sw))
+		sb = SUM((s :: b) * ((s :: w) / sw))
+		sch = enc_per(_pmos2v, nwell_conn, S, 1.000000)
+		scv = enc_par(_pmos2v, nwell_conn, S, 1.000000)
+		sca = TVF_NUM_FUN("calc_sca", "wpe_procedure", sch, scv, w, l, 1)
+		scb = TVF_NUM_FUN("calc_scb", "wpe_procedure", sch, scv, w, l, 1)
+		scc = TVF_NUM_FUN("calc_scc", "wpe_procedure", sch, scv, w, l, 1)
+	]
+
+    DEVICE M( g45pcap1) _pmoscap1v ( S D) -model g45pcap1 poly_conn( G) pdiff_conn( S) pdiff_conn( D) nwell_conn( B) [
+		width = (perim_co(_pmoscap1v, pdiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_pmoscap1v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+	]
+
+    DEVICE M( g45pcap2) _pmoscap2v ( S D) -model g45pcap2 poly_conn( G) pdiff_conn( S) pdiff_conn( D) nwell_conn( B) [
+		width = (perim_co(_pmoscap2v, pdiff_conn) / 2)
+		w = width
+		fw = width
+		l = (area(_pmoscap2v) / width)
+		ad = area(D)
+		as = area(S)
+		pd = perim(D)
+		ps = perim(S)
+	]
+
+    DEVICE R( g45rm1) _resm1 metal1_conn( PLUS) metal1_conn( MINUS) ( PLUS MINUS) -model g45rm1 [
+		width = (perim_co(_resm1, metal1_conn) / 2)
+		length = (perim_out(_resm1, metal1_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm1)) * width))
+		effL = (length - ((0.45 * bends(_resm1)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm2) _resm2 metal2_conn( PLUS) metal2_conn( MINUS) ( PLUS MINUS) -model g45rm2 [
+		width = (perim_co(_resm2, metal2_conn) / 2)
+		length = (perim_out(_resm2, metal2_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm2)) * width))
+		effL = (length - ((0.45 * bends(_resm2)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm3) _resm3 metal3_conn( PLUS) metal3_conn( MINUS) ( PLUS MINUS) -model g45rm3 [
+		width = (perim_co(_resm3, metal3_conn) / 2)
+		length = (perim_out(_resm3, metal3_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm3)) * width))
+		effL = (length - ((0.45 * bends(_resm3)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm4) _resm4 metal4_conn( PLUS) metal4_conn( MINUS) ( PLUS MINUS) -model g45rm4 [
+		width = (perim_co(_resm4, metal4_conn) / 2)
+		length = (perim_out(_resm4, metal4_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm4)) * width))
+		effL = (length - ((0.45 * bends(_resm4)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm5) _resm5 metal5_conn( PLUS) metal5_conn( MINUS) ( PLUS MINUS) -model g45rm5 [
+		width = (perim_co(_resm5, metal5_conn) / 2)
+		length = (perim_out(_resm5, metal5_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm5)) * width))
+		effL = (length - ((0.45 * bends(_resm5)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm6) _resm6 metal6_conn( PLUS) metal6_conn( MINUS) ( PLUS MINUS) -model g45rm6 [
+		width = (perim_co(_resm6, metal6_conn) / 2)
+		length = (perim_out(_resm6, metal6_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm6)) * width))
+		effL = (length - ((0.45 * bends(_resm6)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm7) _resm7 metal7_conn( PLUS) metal7_conn( MINUS) ( PLUS MINUS) -model g45rm7 [
+		width = (perim_co(_resm7, metal7_conn) / 2)
+		length = (perim_out(_resm7, metal7_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm7)) * width))
+		effL = (length - ((0.45 * bends(_resm7)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm8) _resm8 metal8_conn( PLUS) metal8_conn( MINUS) ( PLUS MINUS) -model g45rm8 [
+		width = (perim_co(_resm8, metal8_conn) / 2)
+		length = (perim_out(_resm8, metal8_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm8)) * width))
+		effL = (length - ((0.45 * bends(_resm8)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm9) _resm9 metal9_conn( PLUS) metal9_conn( MINUS) ( PLUS MINUS) -model g45rm9 [
+		width = (perim_co(_resm9, metal9_conn) / 2)
+		length = (perim_out(_resm9, metal9_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm9)) * width))
+		effL = (length - ((0.45 * bends(_resm9)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm10) _resm10 metal10_conn( PLUS) metal10_conn( MINUS) ( PLUS MINUS) -model g45rm10 [
+		width = (perim_co(_resm10, metal10_conn) / 2)
+		length = (perim_out(_resm10, metal10_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm10)) * width))
+		effL = (length - ((0.45 * bends(_resm10)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rm11) _resm11 metal11_conn( PLUS) metal11_conn( MINUS) ( PLUS MINUS) -model g45rm11 [
+		width = (perim_co(_resm11, metal11_conn) / 2)
+		length = (perim_out(_resm11, metal11_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resm11)) * width))
+		effL = (length - ((0.45 * bends(_resm11)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rsnd) _ressndiff ndiff_conn( PLUS) ndiff_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rsnd [
+		width = (perim_co(_ressndiff, ndiff_conn) / 2)
+		length = (perim_out(_ressndiff, ndiff_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_ressndiff)) * width))
+		effL = (length - ((0.45 * bends(_ressndiff)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnsnd) _resnsndiff ndiff_conn( PLUS) ndiff_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rnsnd [
+		width = (perim_co(_resnsndiff, ndiff_conn) / 2)
+		length = (perim_out(_resnsndiff, ndiff_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnsndiff)) * width))
+		effL = (length - ((0.45 * bends(_resnsndiff)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rsnp) _ressnpoly poly_conn( PLUS) poly_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rsnp [
+		width = (perim_co(_ressnpoly, poly_conn) / 2)
+		length = (perim_out(_ressnpoly, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_ressnpoly)) * width))
+		effL = (length - ((0.45 * bends(_ressnpoly)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rsnp) _ressnpoly_nw poly_conn( PLUS) poly_conn( MINUS) nwell_conn( B) ( PLUS MINUS) -model g45rsnp [
+		width = (perim_co(_ressnpoly_nw, poly_conn) / 2)
+		length = (perim_out(_ressnpoly_nw, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_ressnpoly_nw)) * width))
+		effL = (length - ((0.45 * bends(_ressnpoly_nw)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnsnp) _resnsnpoly poly_conn( PLUS) poly_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rnsnp [
+		width = (perim_co(_resnsnpoly, poly_conn) / 2)
+		length = (perim_out(_resnsnpoly, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnsnpoly)) * width))
+		effL = (length - ((0.45 * bends(_resnsnpoly)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnsnp) _resnsnpoly_nw poly_conn( PLUS) poly_conn( MINUS) nwell_conn( B) ( PLUS MINUS) -model g45rnsnp [
+		width = (perim_co(_resnsnpoly_nw, poly_conn) / 2)
+		length = (perim_out(_resnsnpoly_nw, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnsnpoly_nw)) * width))
+		effL = (length - ((0.45 * bends(_resnsnpoly_nw)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rspd) _resspdiff pdiff_conn( PLUS) pdiff_conn( MINUS) nwell_conn( B) ( PLUS MINUS) -model g45rspd [
+		width = (perim_co(_resspdiff, pdiff_conn) / 2)
+		length = (perim_out(_resspdiff, pdiff_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resspdiff)) * width))
+		effL = (length - ((0.45 * bends(_resspdiff)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnspd) _resnspdiff pdiff_conn( PLUS) pdiff_conn( MINUS) nwell_conn( B) ( PLUS MINUS) -model g45rnspd [
+		width = (perim_co(_resnspdiff, pdiff_conn) / 2)
+		length = (perim_out(_resnspdiff, pdiff_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnspdiff)) * width))
+		effL = (length - ((0.45 * bends(_resnspdiff)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rspp) _ressppoly poly_conn( PLUS) poly_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rspp [
+		width = (perim_co(_ressppoly, poly_conn) / 2)
+		length = (perim_out(_ressppoly, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_ressppoly)) * width))
+		effL = (length - ((0.45 * bends(_ressppoly)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rspp) _ressppoly_nw poly_conn( PLUS) poly_conn( MINUS) nwell_conn( B) ( PLUS MINUS) -model g45rspp [
+		width = (perim_co(_ressppoly_nw, poly_conn) / 2)
+		length = (perim_out(_ressppoly_nw, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_ressppoly_nw)) * width))
+		effL = (length - ((0.45 * bends(_ressppoly_nw)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnspp) _resnsppoly poly_conn( PLUS) poly_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rnspp [
+		width = (perim_co(_resnsppoly, poly_conn) / 2)
+		length = (perim_out(_resnsppoly, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnsppoly)) * width))
+		effL = (length - ((0.45 * bends(_resnsppoly)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnspp) _resnsppoly_nw poly_conn( PLUS) poly_conn( MINUS) nwell_conn( B) ( PLUS MINUS) -model g45rnspp [
+		width = (perim_co(_resnsppoly_nw, poly_conn) / 2)
+		length = (perim_out(_resnsppoly_nw, poly_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnsppoly_nw)) * width))
+		effL = (length - ((0.45 * bends(_resnsppoly_nw)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnws) _resnwsti nwell_conn( PLUS) nwell_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rnws [
+		width = (perim_co(_resnwsti, nwell_conn) / 2)
+		length = (perim_out(_resnwsti, nwell_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnwsti)) * width))
+		effL = (length - ((0.45 * bends(_resnwsti)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE R( g45rnwo) _resnwoxide nwell_conn( PLUS) nwell_conn( MINUS) psubstrate( B) ( PLUS MINUS) -model g45rnwo [
+		width = (perim_co(_resnwoxide, nwell_conn) / 2)
+		length = (perim_out(_resnwoxide, nwell_conn) / 2)
+		w = width
+		effW = width
+		l = (length - ((0.45 * bends(_resnwoxide)) * width))
+		effL = (length - ((0.45 * bends(_resnwoxide)) * width))
+		segW = width
+		segL = l
+	]
+
+    DEVICE D( g45nd1svt) _ndio psubstrate( PLUS) ndiff_conn( MINUS) -model g45nd1svt [
+		area = area(_ndio)
+		pj = perim(_ndio)
+	]
+
+    DEVICE D( g45nd1lvt) _ndio_lvt psubstrate( PLUS) ndiff_conn( MINUS) -model g45nd1lvt [
+		area = area(_ndio_lvt)
+		pj = perim(_ndio_lvt)
+	]
+
+    DEVICE D( g45nd1hvt) _ndio_hvt psubstrate( PLUS) ndiff_conn( MINUS) -model g45nd1hvt [
+		area = area(_ndio_hvt)
+		pj = perim(_ndio_hvt)
+	]
+
+    DEVICE D( g45nd1nvt) _ndio_nvt psubstrate( PLUS) ndiff_conn( MINUS) -model g45nd1nvt [
+		area = area(_ndio_nvt)
+		pj = perim(_ndio_nvt)
+	]
+
+    DEVICE D( g45nd2svt) _ndio_2v psubstrate( PLUS) ndiff_conn( MINUS) -model g45nd2svt [
+		area = area(_ndio_2v)
+		pj = perim(_ndio_2v)
+	]
+
+    DEVICE D( g45nd2nvt) _ndio_2v_nvt psubstrate( PLUS) ndiff_conn( MINUS) -model g45nd2nvt [
+		area = area(_ndio_2v_nvt)
+		pj = perim(_ndio_2v_nvt)
+	]
+
+    DEVICE D( g45pd1svt) _pdio pdiff_conn( PLUS) nwell_conn( MINUS) -model g45pd1svt [
+		area = area(_pdio)
+		pj = perim(_pdio)
+	]
+
+    DEVICE D( g45pd1lvt) _pdio_lvt pdiff_conn( PLUS) nwell_conn( MINUS) -model g45pd1lvt [
+		area = area(_pdio_lvt)
+		pj = perim(_pdio_lvt)
+	]
+
+    DEVICE D( g45pd1hvt) _pdio_hvt pdiff_conn( PLUS) nwell_conn( MINUS) -model g45pd1hvt [
+		area = area(_pdio_hvt)
+		pj = perim(_pdio_hvt)
+	]
+
+    DEVICE D( g45pd2svt) _pdio_2v pdiff_conn( PLUS) nwell_conn( MINUS) -model g45pd2svt [
+		area = area(_pdio_2v)
+		pj = perim(_pdio_2v)
+	]
+
+    DEVICE Q( g45vpnp2) _vpnp2 psubstrate( C) nwell_conn( B) pdiff_conn( E) -model g45vpnp2 [
+		area = (area(E) * 1)
+	]
+
+    DEVICE Q( g45vpnp5) _vpnp5 psubstrate( C) nwell_conn( B) pdiff_conn( E) -model g45vpnp5 [
+		area = (area(E) * 1)
+	]
+
+    DEVICE Q( g45vpnp10) _vpnp10 psubstrate( C) nwell_conn( B) pdiff_conn( E) -model g45vpnp10 [
+		area = (area(E) * 1)
+	]
+
+    DEVICE Q( g45vnpn2) _npn2 nwell_conn( C) psubstrate( B) npn_emit( E) -model g45vnpn2 [
+		area = (area(E) * 1)
+	]
+
+    DEVICE Q( g45vnpn5) _npn5 nwell_conn( C) psubstrate( B) npn_emit( E) -model g45vnpn5 [
+		area = (area(E) * 1)
+	]
+
+    DEVICE Q( g45vnpn10) _npn10 nwell_conn( C) psubstrate( B) npn_emit( E) -model g45vnpn10 [
+		area = (area(E) * 1)
+	]
+
+    DEVICE C( g45cmim) _mimcap CapMetal( PLUS) metal10_conn( MINUS) psubstrate( B) -model g45cmim [
+		area = area(_mimcap)
+		perim = perim(_mimcap)
+		w = (perim * 0.25)
+		l = (perim * 0.25)
+		c = ((area * 0.001) + (perim * 1e-10))
+	]
+
+    DEVICE L( g45inda) _ind_a ind10( PLUS) ind11( MINUS) psubstrate( B) ( PLUS MINUS) < inda_width> < ind2_space> < inda_rad> < ind_nr> -model g45inda [
+		width = (area(inda_width) * 100000000)
+		space = (area(ind2_space) * 50000000)
+		nr = (count(ind_nr) - 0.5)
+		rad = (area(inda_rad) * 5000000)
+	]
+
+    DEVICE L( g45inds) _ind_s ind11( PLUS) ind11( MINUS) psubstrate( B) ( PLUS MINUS) -model g45inds < inds_width> < ind2_sp1> < ind_rad> < _ind_s_enc> [
+		width = (area(inds_width) * 100000000)
+		space = (area(ind2_sp1) * 100000000)
+		rad = (area(ind_rad) * 5000000)
+		nr = (count(_ind_s_enc) + 1)
+	]
+
+========================================================================
+Completed execution after parsing the rules, as requested by the "-p" flag or "-get_rules" flag 
+
+
+Netlist extraction finished normally. Fri Oct 24 21:15:14 2025
+
+

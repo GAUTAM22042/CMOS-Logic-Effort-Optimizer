@@ -1,0 +1,141 @@
+********************************************************************************
+*** Pegasus ERC SUMMARY
+***
+Execute on Date/Time    : Fri Oct 24 21:15:14 2025
+Pegasus VERSION         : 24.13-s018 Wed Jun 18 15:36:24 PDT 2025
+Rule Deck Path          : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/.technology.rul
+Rule Deck Title         :
+Layout System           : GDSII
+Layout Path             : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.gds.gz
+Current Directory       : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs
+User Name               : gjayakis
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : /home/ece558_658_2025/gjayakishan/lab2/XOR_X1/lvs-runs/XOR_X1.sum
+Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
+                          NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : XOR_X1
+LVS Softchk Report      : XOR_X1.softchk
+ASCII ERC Error Report  :
+ERC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER BJTdum ............................... Total Original Geometry:          0 (         0)
+LAYER Bondpad .............................. Total Original Geometry:          0 (         0)
+LAYER Cap3dum .............................. Total Original Geometry:          0 (         0)
+LAYER CapMetal ............................. Total Original Geometry:          0 (         0)
+LAYER Capdum ............................... Total Original Geometry:          0 (         0)
+LAYER Cont ................................. Total Original Geometry:         29 (       193)
+LAYER DIOdummy ............................. Total Original Geometry:          0 (         0)
+LAYER IND2dummy ............................ Total Original Geometry:          0 (         0)
+LAYER INDdummy ............................. Total Original Geometry:          0 (         0)
+LAYER M1Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M2Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M3Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M4Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M5Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M6Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M7Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M8Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M9Resdum ............................. Total Original Geometry:          0 (         0)
+LAYER M10Resdum ............................ Total Original Geometry:          0 (         0)
+LAYER M11Resdum ............................ Total Original Geometry:          0 (         0)
+LAYER Metal1 ............................... Total Original Geometry:         83 (       291)
+LAYER Metal2 ............................... Total Original Geometry:         80 (       215)
+LAYER Metal3 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal4 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal5 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal6 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal7 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal8 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal9 ............................... Total Original Geometry:          0 (         0)
+LAYER Metal10 .............................. Total Original Geometry:          0 (         0)
+LAYER Metal11 .............................. Total Original Geometry:          0 (         0)
+LAYER NPN2dum .............................. Total Original Geometry:          0 (         0)
+LAYER NPN5dum .............................. Total Original Geometry:          0 (         0)
+LAYER NPN10dum ............................. Total Original Geometry:          0 (         0)
+LAYER NPNdummy ............................. Total Original Geometry:          0 (         0)
+LAYER Nburied .............................. Total Original Geometry:          0 (         0)
+LAYER Nhvt ................................. Total Original Geometry:          0 (         0)
+LAYER Nimp ................................. Total Original Geometry:          5 (        34)
+LAYER Nlvt ................................. Total Original Geometry:          0 (         0)
+LAYER Nwell ................................ Total Original Geometry:          5 (        20)
+LAYER Nzvt ................................. Total Original Geometry:          0 (         0)
+LAYER Oxide ................................ Total Original Geometry:         14 (       101)
+LAYER Oxide_thk ............................ Total Original Geometry:          0 (         0)
+LAYER PNPdummy ............................. Total Original Geometry:          0 (         0)
+LAYER Phvt ................................. Total Original Geometry:          0 (         0)
+LAYER Pimp ................................. Total Original Geometry:          5 (        35)
+LAYER Plvt ................................. Total Original Geometry:          0 (         0)
+LAYER Poly ................................. Total Original Geometry:         55 (       209)
+LAYER Psub ................................. Total Original Geometry:          0 (         0)
+LAYER ResWdum .............................. Total Original Geometry:          0 (         0)
+LAYER Resdum ............................... Total Original Geometry:          0 (         0)
+LAYER SiProt ............................... Total Original Geometry:          0 (         0)
+LAYER Via1 ................................. Total Original Geometry:         10 (       195)
+LAYER Via2 ................................. Total Original Geometry:          0 (         0)
+LAYER Via3 ................................. Total Original Geometry:          0 (         0)
+LAYER Via4 ................................. Total Original Geometry:          0 (         0)
+LAYER Via5 ................................. Total Original Geometry:          0 (         0)
+LAYER Via6 ................................. Total Original Geometry:          0 (         0)
+LAYER Via7 ................................. Total Original Geometry:          0 (         0)
+LAYER Via8 ................................. Total Original Geometry:          0 (         0)
+LAYER Via9 ................................. Total Original Geometry:          0 (         0)
+LAYER Via10 ................................ Total Original Geometry:          0 (         0)
+LAYER ind10_text ........................... Total Original Geometry:          0 (         0)
+LAYER ind11_text ........................... Total Original Geometry:          0 (         0)
+LAYER metal1_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal2_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal3_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal4_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal5_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal6_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal8_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal9_conn_text ..................... Total Original Geometry:          0 (         0)
+LAYER metal10_conn_text .................... Total Original Geometry:          0 (         0)
+LAYER metal11_conn_text .................... Total Original Geometry:          0 (         0)
+LAYER m1_label ............................. Total Original Geometry:          0 (         0)
+LAYER m2_label ............................. Total Original Geometry:          0 (         0)
+LAYER m3_label ............................. Total Original Geometry:          0 (         0)
+LAYER m4_label ............................. Total Original Geometry:          0 (         0)
+LAYER m5_label ............................. Total Original Geometry:          0 (         0)
+LAYER m6_label ............................. Total Original Geometry:          0 (         0)
+LAYER m7_label ............................. Total Original Geometry:          0 (         0)
+LAYER m8_label ............................. Total Original Geometry:          0 (         0)
+LAYER m9_label ............................. Total Original Geometry:          0 (         0)
+LAYER m10_label ............................ Total Original Geometry:          0 (         0)
+LAYER m11_label ............................ Total Original Geometry:          0 (         0)
+LAYER m1_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m2_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m3_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m4_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m5_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m6_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m7_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m8_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m9_pin ............................... Total Original Geometry:          0 (         0)
+LAYER m10_pin .............................. Total Original Geometry:          0 (         0)
+LAYER m11_pin .............................. Total Original Geometry:          0 (         0)
+LAYER text ................................. Total Original Geometry:          0 (         0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 1(s)
+Total Real Time                   : 1(s)
+Total Original Geometry           : 286 (1293)
+Total ERC RuleChecks              : 0
+Total ERC Results                 : 0 (0)

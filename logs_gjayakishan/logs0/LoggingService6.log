@@ -1,0 +1,9 @@
+[Logging Service: 6]
+[2025-10-24 23:25:12.332 -0400] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/ece558_658_2025/gjayakishan/lab2/XOR_X1/XOR_X1/maestro/results/maestro"}
+[2025-10-24 23:25:12.332 -0400] [INFO] [cadence.virtuoso.ade.loggingservice] - useGRPC grpc service... {"brokerAddress": "vlsicad.ecs.umass.edu:33149", "serviceName": "DaVinciService_1902841_1761354412", "axlSession": "fnxSession3"}
+[2025-10-24 23:25:12.333 -0400] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "vlsicad.ecs.umass.edu", "processid": 1948049, "logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}
+[2025-10-24 23:25:12.343 -0400] [INFO] [cadence.virtuoso.ade.loggingservice] - logging service gRPC started {"listening address": "vlsicad.ecs.umass.edu:41961"}
+[2025-10-24 23:26:27.536 -0400] [INFO] [cadence.virtuoso.ade.loggingservice] - Got exit signal in processControlMessage. Will exit. {}
+[2025-10-24 23:26:28.536 -0400] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 63.0117 MBytes, peak memory used: 63.0117 MBytes {"hostname": "vlsicad.ecs.umass.edu", "processid": 1948049, "logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}
+[2025-10-24 23:26:28.536 -0400] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "vlsicad.ecs.umass.edu", "processid": 1948049, "logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}
+[2025-10-24 23:26:28.536 -0400] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "vlsicad.ecs.umass.edu", "processid": 1948049, "logfile": "/home/ece558_658_2025/gjayakishan/lab2/logs_gjayakishan/logs0/LoggingService6.log"}

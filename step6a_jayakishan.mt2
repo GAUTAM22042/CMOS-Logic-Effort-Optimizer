@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06-3 linux64' PARAM_COUNT=0
+.TITLE 'late_rst'
+ d_rst_phi        temper           alter#          
+    failed         2.500e+01       3               
